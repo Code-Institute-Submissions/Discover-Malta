@@ -23,3 +23,43 @@ I chose to create this website as I have visited Malta previously and it was a h
 2. As the site owner, I wanted to show images of Malta and the various places references on the site.
 3. As the site owner, I wanted to include  amop for users to see hotels, restaurants and tourist attractions in the area they are looking at.
 4. As the site owner, I wanted to user to be able to get in touch if they had questions or if they were looking for recommendations for their trip.
+
+### Wireframes:
+
+### Colour Palette:
+
+# Features
+
+### Navigation Bar:
+
+### Footer:
+
+### Home:
+
+### Locations:
+
+### Contact:
+
+# Technologies Used 
+
+# Deployment 
+
+### How To Run This Project With Gitpod:
+
+### How To Run This In A Local IDE: 
+
+### Fork The Project:
+
+# Credits
+
+### Code:
+
+### Content:
+
+### Media:
+
+### Resources:
+
+# Acknowledgements
+
+
