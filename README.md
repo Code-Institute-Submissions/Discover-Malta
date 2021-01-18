@@ -42,6 +42,8 @@ I chose to create this website as I have visited Malta previously and it was a h
 
 # Technologies Used 
 
+* [Google Fonts](https://fonts.google.com/) used to find font I used in the site.
+
 # Deployment 
 
 ### How To Run This Project With Gitpod:
