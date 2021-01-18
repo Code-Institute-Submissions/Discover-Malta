@@ -15,4 +15,36 @@ body {
     width: 100%;
     border: 0;
     margin-bottom: 0;
+    background-color: #fefefa;
+}
+
+.navbar-brand {
+    color: #f5816e;
+    font-family: "Dancing Script", cursive;
+    font-weight: 700px;
+    font-size: 45px;
+    text-decoration: none;
+    letter-spacing: 4px;
+    margin-left: 15px;
+}
+
+.navbar-brand:hover, .navbar-brand:focus {
+    color: #368dc5;
+}
+
+.nav-link {
+    color: #f5816e;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    letter-spacing: 2px;
+    padding-right: 10px
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: #368dc5;
+}
+
+.navbar-nav .active>.nav-link {
+    color: #368dc5;
+    text-decoration: none;
 }
