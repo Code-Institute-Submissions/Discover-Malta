@@ -56,6 +56,8 @@ I chose to create this website as I have visited Malta previously and it was a h
 
 ### Code:
 
+* [Hover:CSS](https://ianlunn.github.io/Hover/) classes have been added to my own CSS file for additional styling.
+
 ### Content:
 
 ### Media:
