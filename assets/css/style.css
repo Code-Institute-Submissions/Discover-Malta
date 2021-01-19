@@ -66,4 +66,9 @@ body {
 
 .navbar-nav {
     margin-left: auto;
+    padding-right: 5px;
+}
+
+.navbar-toggler {
+    margin-right: 15px;
 }
