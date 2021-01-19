@@ -76,9 +76,9 @@ body {
     margin-right: 15px;
 }
 
-/* -- Hero Image, Jumbotron & Search Bar-- */
+/* -- Callout section-- */
 
-.image-container {
+.callout-container {
     background-image: url("../images/hero-img.jpg");
     background-position: center;
     background-repeat: no-repeat;
