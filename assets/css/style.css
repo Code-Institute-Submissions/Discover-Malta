@@ -73,6 +73,29 @@ body {
     margin-right: 15px;
 }
 
+/* -- Hero Image, Jumbotron & Search Bar-- */
+
+.image-container {
+    height: 100vh;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    /*background-image: url("../images/hero-img.jpg");*/
+    overflow: hidden;
+    background: no-repeat center center fixed;  
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+
+
 /* -- Media Queries -- */
 
 @media screen and (max-width: 575.98px) {
