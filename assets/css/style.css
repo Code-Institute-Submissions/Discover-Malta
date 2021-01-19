@@ -31,10 +31,9 @@ body {
     width: 100%;
     border: 0;
     margin-bottom: 0;
-    background-color: #fefefa;
 }
 
-.navbar-brand {
+.navbar .navbar-brand {
     color: #f5816e;
     font-family: "Dancing Script", cursive;
     font-weight: 700px;
@@ -44,11 +43,11 @@ body {
     margin-left: 15px;
 }
 
-.navbar-brand:hover, .navbar-brand:focus {
+.navbar .navbar-brand:hover, .navbar-brand:focus {
     color: #368dc5;
 }
 
-.nav-link {
+.navbar-light .navbar-nav .nav-link {
     color: #f5816e;
     font-family: 'Dancing Script', cursive;
     font-size: 30px;
@@ -56,11 +55,11 @@ body {
     padding-right: 10px
 }
 
-.nav-link:hover, .nav-link:focus {
+.navbar-light .navbar-nav .nav-link:hover {
     color: #368dc5;
 }
 
-.navbar-nav .active>.nav-link {
+.navbar .navbar-nav .active>.nav-link {
     color: #368dc5;
     text-decoration: none;
 }
