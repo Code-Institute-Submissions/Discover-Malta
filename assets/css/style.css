@@ -63,3 +63,7 @@ body {
     color: #368dc5;
     text-decoration: none;
 }
+
+.navbar-nav {
+    margin-left: auto;
+}
