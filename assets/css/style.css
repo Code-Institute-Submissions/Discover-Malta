@@ -79,12 +79,14 @@ body {
 /* -- Hero Image, Jumbotron & Search Bar-- */
 
 .image-container {
+    background-image: url("../images/hero-img.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
     padding-left: 0;
     padding-right: 0;
-    overflow: hidden;
-    background: no-repeat center center fixed;  
+    overflow: hidden; 
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
