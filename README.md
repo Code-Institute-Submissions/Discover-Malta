@@ -66,6 +66,10 @@ I chose to create this website as I have visited Malta previously and it was a h
 
 ### Content:
 
+* [Wikipedia](https://en.wikipedia.org/wiki/Palace_Armoury) for written content for Palace Armoury.
+* [Wikipedia](https://en.wikipedia.org/wiki/Saint_John%27s_Co-Cathedral) for written content for St. Johns Co Cathedral.
+* [Wikipedia](https://en.wikipedia.org/wiki/Fort_St._Angelo) for written content for Fort St. Angelo.
+* [Wikipedia](https://en.wikipedia.org/wiki/%C4%A6a%C4%A1ar_Qim) for written content for Ħaġar Qim.
 ### Media:
 
 * [The Saint John](https://thesaintjohnmalta.com/things-to-do-malta/history-culture/st-johns-co-cathedral/) for the image of St John's Co Cathedral.
