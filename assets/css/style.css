@@ -98,7 +98,14 @@ body {
 }
 
 
+/* -- Miscellanepus -- */
 
+.header {
+    letter-spacing: 4px;
+    margin-bottom: 0;
+    color: #cf142b;
+    font-family: 'Dancing Script', cursive;
+}
 
 /* -- Media Queries -- */
 
