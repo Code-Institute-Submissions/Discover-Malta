@@ -98,7 +98,7 @@ body {
 }
 
 
-/* -- Miscellanepus -- */
+/* -- Miscellaneous -- */
 
 .header {
     letter-spacing: 4px;
@@ -107,6 +107,20 @@ body {
     font-family: 'Dancing Script', cursive;
 }
 
+.header-minor {
+    letter-spacing: 4px;
+    margin-bottom: 0;
+    font-family: 'Dancing Script', cursive;
+    color: #cf142b;
+}
+
+.bg-one {
+    background-color: #fefefa;
+}
+
+.bg-two {
+    background-color: #f7f7f2;
+}
 /* -- Media Queries -- */
 
 @media screen and (max-width: 575.98px) {
