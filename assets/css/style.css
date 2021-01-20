@@ -37,7 +37,7 @@ body {
 }
 
 .navbar .navbar-brand {
-    color: #f5816e;
+    color: #cf142b;
     font-family: "Dancing Script", cursive;
     font-weight: 700px;
     font-size: 45px;
@@ -51,7 +51,7 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #f5816e;
+    color: #cf142b;
     font-family: 'Dancing Script', cursive;
     font-size: 30px;
     letter-spacing: 2px;
