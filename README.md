@@ -70,6 +70,8 @@ I chose to create this website as I have visited Malta previously and it was a h
 
 * [The Saint John](https://thesaintjohnmalta.com/things-to-do-malta/history-culture/st-johns-co-cathedral/) for the image of St John's Co Cathedral.
 * [Wikipedia](https://en.wikipedia.org/wiki/Fort_St._Angelo#/media/File:Malta_-_Birgu_-_Fort_Saint_Angelo_(Upper_Barrakka_Gardens)_01_ies.jpg) for the image of Fort St. Angelo.
+* [Wikipedia](https://en.wikipedia.org/wiki/Palace_Armoury#/media/File:Malta_Valletta_BW_2011-10-07_14-03-30.jpg) for the image fo the Palace Armoury.
+* [Britannica.com](https://www.britannica.com/topic/megalith) for the image of Ħaġar Qim.
 
 ### Resources:
 
