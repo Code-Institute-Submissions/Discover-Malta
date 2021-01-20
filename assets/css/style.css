@@ -61,27 +61,30 @@ body {
     text-decoration: none;
     letter-spacing: 4px;
     margin-left: 15px;
+    overflow: visible;
 }
 
 .navbar .navbar-brand:hover, .navbar-brand:focus {
-    color: #368dc5;
+    color: #cf142b;
 }
 
 .navbar-light .navbar-nav .nav-link {
     color: #cf142b;
     font-family: 'Dancing Script', cursive;
     font-size: 30px;
-    letter-spacing: 2px;
-    padding-right: 10px
+    letter-spacing: 3px;
+    padding: 0;
+    margin-right: 15px;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #368dc5;
+    color: #cf142b;
 }
 
 .navbar .navbar-nav .active>.nav-link {
-    color: #368dc5;
+    color: #cf142b;
     text-decoration: none;
+    border-bottom: 2px solid #cf142b;
 }
 
 .navbar-nav {
