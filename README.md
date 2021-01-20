@@ -43,6 +43,11 @@ I chose to create this website as I have visited Malta previously and it was a h
 # Technologies Used 
 
 * [Google Fonts](https://fonts.google.com/) used to find font I used in the site.
+* [Resizeimage.net](https://resizeimage.net/) used to crop and resize images used. 
+* [Bootstrap](https://getbootstrap.com/)
+* HTML
+* CSS 
+* JavScript 
 
 # Deployment 
 
@@ -57,6 +62,7 @@ I chose to create this website as I have visited Malta previously and it was a h
 ### Code:
 
 * [Hover:CSS](https://ianlunn.github.io/Hover/) classes have been added to my own CSS file for additional styling.
+* [Bootstrap](https://getbootstrap.com/) classes have been used throughout this site. 
 
 ### Content:
 
