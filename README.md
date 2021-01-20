@@ -70,12 +70,18 @@ I chose to create this website as I have visited Malta previously and it was a h
 * [Wikipedia](https://en.wikipedia.org/wiki/Saint_John%27s_Co-Cathedral) for written content for St. Johns Co Cathedral.
 * [Wikipedia](https://en.wikipedia.org/wiki/Fort_St._Angelo) for written content for Fort St. Angelo.
 * [Wikipedia](https://en.wikipedia.org/wiki/%C4%A6a%C4%A1ar_Qim) for written content for Ħaġar Qim.
+* [Nightlife-citylife.com](http://www.nightlife-cityguide.com/en/guide-nightlife/malta-nightlife-nightlife-local-clubs-st-julians-paceville/) for written content on the nightlife recommendations.
+
 ### Media:
 
 * [The Saint John](https://thesaintjohnmalta.com/things-to-do-malta/history-culture/st-johns-co-cathedral/) for the image of St John's Co Cathedral.
 * [Wikipedia](https://en.wikipedia.org/wiki/Fort_St._Angelo#/media/File:Malta_-_Birgu_-_Fort_Saint_Angelo_(Upper_Barrakka_Gardens)_01_ies.jpg) for the image of Fort St. Angelo.
 * [Wikipedia](https://en.wikipedia.org/wiki/Palace_Armoury#/media/File:Malta_Valletta_BW_2011-10-07_14-03-30.jpg) for the image fo the Palace Armoury.
 * [Britannica.com](https://www.britannica.com/topic/megalith) for the image of Ħaġar Qim.
+* [Resident Advisor](https://ra.co/clubs/70790) for the image of Sky Club.
+* [Myguidemalta.com](https://www.myguidemalta.com/nightlife/club-havana-malta) for the image of Havana Club.
+* [Cafedelmar.com](https://cafedelmar.com.mt/the-facilities/) for the image of Cafe Del Mar.
+* [Trabuxu.com.mt](http://trabuxu.com.mt/wine-bar/) for the image of Trabuxu Wine Bar.
 
 ### Resources:
 
