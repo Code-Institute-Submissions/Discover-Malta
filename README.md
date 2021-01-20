@@ -68,6 +68,8 @@ I chose to create this website as I have visited Malta previously and it was a h
 
 ### Media:
 
+* [The Saint John](https://thesaintjohnmalta.com/things-to-do-malta/history-culture/st-johns-co-cathedral/) for the image used for St John's Co Cathedral trip recommendation.
+
 ### Resources:
 
 # Acknowledgements
