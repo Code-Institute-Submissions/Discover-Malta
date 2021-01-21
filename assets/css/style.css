@@ -129,6 +129,23 @@ body {
     padding-right: 100px;
 }
 
+/* -- Contact form -- */
+
+.form-container {
+    background-color: #cf142b;
+    color: #ffffff;
+    height: 95vh;
+}
+
+.form-label {
+    font-size: 25px;
+}
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
 /* -- Footer -- */
 
 footer {
@@ -212,4 +229,11 @@ footer a:hover {
             padding-right: 50px;
             padding-left: 50px;
         }
+}
+
+@media screen and (max-width: 991.98px) {
+    
+    form {
+        width: 80%;
+    }
 }
