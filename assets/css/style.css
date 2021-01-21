@@ -119,6 +119,16 @@ body {
 
 /* -- Trip recommendations -- */
 
+
+/* -- Info section -- */
+
+.info-container {
+    background-color: #cf142b;
+    color: #ffffff;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
 /* -- Footer -- */
 
 footer {
@@ -148,6 +158,13 @@ footer a:hover {
     letter-spacing: 4px;
     margin-bottom: 0;
     color: #cf142b;
+    font-family: 'Dancing Script', cursive;
+}
+
+.header-two {
+    letter-spacing: 4px;
+    margin-bottom: 0;
+    color: #ffffff;
     font-family: 'Dancing Script', cursive;
 }
 
@@ -189,5 +206,10 @@ footer a:hover {
 
         .navbar-light .navbar-nav .nav-link {
             font-size: 25px;
+        }
+
+        .info-container {
+            padding-right: 50px;
+            padding-left: 50px;
         }
 }
