@@ -76,6 +76,7 @@ I chose to create this website as I have visited Malta previously and it was a h
 * [Wikipedia](https://en.wikipedia.org/wiki/Blue_Grotto_(Malta) for written content about the Blue Grotto.
 * [Nightlife-citylife.com](http://www.nightlife-cityguide.com/en/guide-nightlife/malta-nightlife-nightlife-local-clubs-st-julians-paceville/) for written content on the nightlife recommendations.
 * [Maltauncovered.com](https://www.maltauncovered.com/comino-island/blue-lagoon/) for written content on the Blue Lagoon.
+* [Visitmalta.com](https://www.visitmalta.com/en/about-malta) for written content in the "About Malta" section.
 
 ### Media:
 
