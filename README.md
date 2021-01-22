@@ -67,6 +67,14 @@ I chose to create this website as I have visited Malta previously and it was a h
 
 ### Content:
 
+* [Wikipedia](https://en.wikipedia.org/wiki/Valletta) for written content about Valletta.
+* [Wikipedia](https://en.wikipedia.org/wiki/Mdina) for written content about Mdina.
+* [Wikipedia](https://en.wikipedia.org/wiki/St._Julian%27s,_Malta) for written content about Saint Julian's.
+* [Wikipedia](https://en.wikipedia.org/wiki/Marsaxlokk) for written content about Marsalokk.
+* [Wikipedia](https://en.wikipedia.org/wiki/Gozo) for written content about Gozo.
+* [Wikipedia](https://en.wikipedia.org/wiki/Comino) for written content about Comino.
+
+to be removed ----
 * [Wikipedia](https://en.wikipedia.org/wiki/Palace_Armoury) for written content for Palace Armoury.
 * [Wikipedia](https://en.wikipedia.org/wiki/Saint_John%27s_Co-Cathedral) for written content for St. Johns Co Cathedral.
 * [Wikipedia](https://en.wikipedia.org/wiki/Fort_St._Angelo) for written content for Fort St. Angelo.
@@ -80,6 +88,14 @@ I chose to create this website as I have visited Malta previously and it was a h
 
 ### Media:
 
+* [Britannica.com](https://www.britannica.com/place/Valletta) for the image of Valletta.
+* [Itinari.com](https://www.itinari.com/mdina-the-silent-city-of-malta-avr7) for the image of Mdina.
+* [Tvm.com.mt](https://www.tvm.com.mt/en/wp-content/uploads/sites/2/2019/02/paceville-st-julians-aerial-malta.png) for the image of Saint Julian's.
+* [Chevron.co.uk](https://www.chevron.co.uk/exploremalta/placestovisit/marsaxlokk-malta) for the image of Marsalokk.
+* [Wikimedia](https://commons.wikimedia.org/wiki/File:Xlendi_Bay_Gozo_Malta_2014_1.jpg) for the image of Xlendi Bay, Gozo.
+* [Life2part.com](https://lifepart2.com/visit-comino-island-and-blue-lagoon-in-malta/) for the image of the Blue Lagoon, Comino.
+
+to be removed ----
 * [The Saint John](https://thesaintjohnmalta.com/things-to-do-malta/history-culture/st-johns-co-cathedral/) for the image of St John's Co Cathedral.
 * [Wikipedia](https://en.wikipedia.org/wiki/Fort_St._Angelo#/media/File:Malta_-_Birgu_-_Fort_Saint_Angelo_(Upper_Barrakka_Gardens)_01_ies.jpg) for the image of Fort St. Angelo.
 * [Wikipedia](https://en.wikipedia.org/wiki/Palace_Armoury#/media/File:Malta_Valletta_BW_2011-10-07_14-03-30.jpg) for the image fo the Palace Armoury.
