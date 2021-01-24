@@ -15,7 +15,7 @@
 
 </head>
 
-<body onload="initMap();">
+<body>
 
     <!-- Nav bar -->
 
@@ -88,6 +88,24 @@
         <header class="text-center pt-3 pb-3 bg-two">
             <h1 class="header">Ideas For Your Trip</h1>
         </header>
+
+        <!-- Search box & map -->
+
+        <div class="search-container container-fluid">
+            <h2 class="header text-center">Malta has many wonderful places to visit and sites to see. Let us help you
+                find where to go.</h2>
+            <div id="pac-container" class="text-center">
+                <input id="pac-input" type="text" placeholder="Search for a place" />
+            </div>
+            <div class="map-container ml-auto mr-auto">
+                <div id="map"></div>
+                <div id="infowindow-content">
+                    <img src="" width="16" height="16" id="place-icon" />
+                    <span id="place-name" class="title"></span><br />
+                    <span id="place-address"></span>
+                </div>
+            </div>
+        </div>
 
         <!-- Areas -->
 
