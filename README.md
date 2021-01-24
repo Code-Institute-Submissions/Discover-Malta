@@ -58,6 +58,7 @@ In the furture I would liek toa dd the following features to the site:
 * [Google Fonts](https://fonts.google.com/) used to find font I used in the site.
 * [Resizeimage.net](https://resizeimage.net/) used to crop and resize images used. 
 * [Font Awesome](https://fontawesome.com/) for various icons.
+* [Google Places API](https://developers.google.com/places/web-service/overview) and [Google Maps Javascript API](https://developers.google.com/maps/documentation/javascript/overview) for adding the map and seacrh box to my site.
 
 # Deployment 
 
@@ -73,6 +74,7 @@ In the furture I would liek toa dd the following features to the site:
 
 * [Hover:CSS](https://ianlunn.github.io/Hover/) classes have been added to my own CSS file for additional styling.
 * [Bootstrap](https://getbootstrap.com/) classes have been used throughout this site. 
+* [Google Places API](https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-multiple-countries) "Places Autocomplete Restricted To Multiple Countries" example was used as a template for my search.js file. I changed some of the code to suit what I needed.
 
 ### Content:
 
