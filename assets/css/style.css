@@ -294,4 +294,13 @@ footer a:hover {
     form {
         width: 80%;
     }
+
+    .map-container {
+        height: 500px;
+        width: 500px;
+    }
+
+    #pac-input {
+        width: 500px;
+    }
 }
