@@ -117,13 +117,14 @@ body {
     position: relative;
 }
 
+/* -- Trip recommendations -- */
+
 .search-container {
-    background-color: white;
     /*position: absolute;
     z-index: 1;*/
     clear: both;
-    height: 500px;
-    width: 700px;
+    /*height: 500px;
+    width: 700px;*/
 }
 
 #map {
@@ -131,8 +132,10 @@ body {
 }
 
 .map-container {
-    height: 300px;
-    width: 400px;
+    height: 500px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #infowindow-content .title {
@@ -146,8 +149,6 @@ body {
 #map #infowindow-content {
   display: inline;
 }
-
-/* -- Trip recommendations -- */
 
 
 /* -- Info section -- */
