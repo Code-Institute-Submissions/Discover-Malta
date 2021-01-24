@@ -1,10 +1,11 @@
-document.addEventListener('DOMContentLoaded', initMap());
-
 // Some of the below code has been taken directly from the documentation for Google Places API. I have made some changes for it to suit my requirements.
 
 function initMap(){ 
-    const map = new google.maps.Map(document.getElementById("map"), { // Set the map centered on the Maltese Archipelago
-        center: { lat: 35.9440174, lng: 14.3795242 },
+
+    // Set the map centered on the Maltese Archipelago
+    const malta = { lat: 35.9440174, lng: 14.3795242 };
+    const map = new google.maps.Map(document.getElementById("map"), { 
+        center: malta,
         zoom: 10,
     });
 
@@ -13,7 +14,7 @@ function initMap(){
     const autocomplete = new google.maps.places.Autocomplete(input);
     autocomplete.setComponentRestrictions({ 
       country:["mt"]
-  });
+    });
 
     // Set the information found and returned in the info window that pops up once a place is searched for 
     autocomplete.setFields(["address_components", "geometry", "icon", "name"]);
@@ -48,22 +49,21 @@ function initMap(){
         let address = "";
 
         if (place.address_components) {
-      address = [
-        (place.address_components[0] &&
-          place.address_components[0].short_name) ||
-          "",
-        (place.address_components[1] &&
-          place.address_components[1].short_name) ||
-          "",
-        (place.address_components[2] &&
-          place.address_components[2].short_name) ||
-          "",
-      ].join(" ");
-    }
-    infowindowContent.children["place-icon"].src = place.icon;
-    infowindowContent.children["place-name"].textContent = place.name;
-    infowindowContent.children["place-address"].textContent = address;
-    infowindow.open(map, marker);
-  });
+            address = [
+                (place.address_components[0] &&
+                    place.address_components[0].short_name) ||
+                    "",
+                (place.address_components[1] &&
+                    place.address_components[1].short_name) ||
+                    "",
+                (place.address_components[2] &&
+                    place.address_components[2].short_name) ||
+                    "",
+            ].join(" ");
+        }
+        infowindowContent.children["place-icon"].src = place.icon;
+        infowindowContent.children["place-name"].textContent = place.name;
+        infowindowContent.children["place-address"].textContent = address;
+        infowindow.open(map, marker);
+    });    
 }
-
