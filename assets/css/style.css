@@ -127,6 +127,11 @@ body {
     width: 700px;*/
 }
 
+.search-container p {
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
 #map {
     height: 100%;
 }
@@ -150,6 +155,14 @@ body {
   display: inline;
 }
 
+#pac-container {
+
+}
+
+#pac-input {
+    border: 1px solid;
+    width: 700px;
+}
 
 /* -- Info section -- */
 
@@ -248,18 +261,32 @@ footer a:hover {
 
 @media screen and (max-width: 575.98px) {
 
-        .navbar .navbar-brand {
-            font-size: 25px;
-        }
+    .navbar .navbar-brand {
+        font-size: 25px;
+    }
 
-        .navbar-light .navbar-nav .nav-link {
-            font-size: 25px;
-        }
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 25px;
+    }
 
-        .info-container {
-            padding-right: 50px;
-            padding-left: 50px;
-        }
+    .info-container {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    .search-container p {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    .map-container {
+        height: 300px;
+        width: 300px;
+    }
+
+    #pac-input {
+        width: 300px;
+    }
 }
 
 @media screen and (max-width: 991.98px) {
