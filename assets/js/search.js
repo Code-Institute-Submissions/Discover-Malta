@@ -1,3 +1,5 @@
+document.addEventListener('DOMContentLoaded', initMap());
+
 // Some of the below code has been taken directly from the documentation for Google Places API. I have made some changes for it to suit my requirements.
 
 function initMap(){ 
