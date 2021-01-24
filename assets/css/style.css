@@ -236,7 +236,7 @@ footer a:hover {
 }
 
 .red-btn:focus {
-    box-shadow: 0 0 0 0.25rem rgba(253, 66, 19, 0.322);
+    box-shadow: none
 }
 
 .red-btn:hover {
