@@ -1,5 +1,3 @@
-//document.addEventListener('DOMContentLoaded', MarkerClusterer());
-
 // Some of the below code has been taken directly from the documentation for Google Places API. I have made some changes for it to suit my requirements.
 
 function initMap(){ 
@@ -77,30 +75,44 @@ function initMap(){
     var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
     // Locations shown are the places from the trip recommendations section
+    // Places searched in the site's search box and img tag copied and added into the below
     var locations = [
-        { lat: 35.898907, lng: 14.514553 }, // Valletta
-        { lat: 35.884430, lng: 14.403160 }, // Mdina
-        { lat: 35.913760, lng: 14.489910 }, // Saint Julians
-        { lat: 35.841240, lng: 14.545070 }, // Marsalokk
-        { lat: 36.012936, lng: 14.334650 }, // Comino
-        { lat: 36.043547, lng: 14.251807 }, // Gozo
-        { lat: 35.897676, lng: 14.512664 }, // St. John's Co Cathedral
-        { lat: 35.891736, lng: 14.518429 }, // Fort St. Angelo
-        { lat: 36.014029, lng: 14.323465 }, // Blue Lagoon
-        { lat: 35.894595, lng: 14.512602 }, // Saluting Battery
-        { lat: 35.960818, lng: 14.341395 }, // Popeye Village
-        { lat: 35.827626, lng: 14.442296 }, // Ħaġar Qim
+        { lat: 35.898907, lng: 14.514553, info: `<img src="https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png" width="16" height="16"> <strong>Valletta</strong>` }, // Valletta
+        { lat: 35.884430, lng: 14.403160, info: `<img src="https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png" width="16" height="16"> <strong>Mdina</strong>` }, // Mdina
+        { lat: 35.913760, lng: 14.489910, info: `<img src="https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png" width="16" height="16"> <strong>Saint Julians</strong>` }, // Saint Julians
+        { lat: 35.841240, lng: 14.545070, info: `<img src="https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png" width="16" height="16"> <strong>Marsalokk</strong>` }, // Marsalokk
+        { lat: 36.012936, lng: 14.334650, info: `<img src="https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png" width="16" height="16"> <strong>Comino</strong>` }, // Comino
+        { lat: 36.043547, lng: 14.251807, info: `<img src="https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png" width="16" height="16"> <strong>Gozo</strong>` }, // Gozo
+        { lat: 35.897676, lng: 14.512664, info: `<img src="https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/worship_general-71.png" width="16" height="16" id="place-icon"> <strong>St. John's Co Cathedral</strong>` }, // St. John's Co Cathedral
+        { lat: 35.891736, lng: 14.518429, info: `<img src="https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png" width="16" height="16"> <strong>Fort St. Angelo</strong>` }, // Fort St. Angelo
+        { lat: 36.014029, lng: 14.323465, info: `<img src="https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png" width="16" height="16"> <strong>Blue Lagoon</strong>` }, // Blue Lagoon
+        { lat: 35.894595, lng: 14.512602, info: `<img src="https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png" width="16" height="16"> <strong>Saluting Battery</strong>` }, // Saluting Battery
+        { lat: 35.960818, lng: 14.341395, info: `<img src="https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png" width="16" height="16"> <strong>Popeye Village</strong>` }, // Popeye Village
+        { lat: 35.827626, lng: 14.442296, info: `<img src="https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png" width="16" height="16"> <strong>Ħaġar Qim</strong>` }, // Ħaġar Qim
     ];
 
-    // Adding markers
+    // Creating an info window for the set markers
+    // Below code found on a Stack Overflow page, linked in README file
+
+    var infoWin = new google.maps.InfoWindow();
+    
+    // Add the markers
     var markers = locations.map(function(location, i) {
-        return new google.maps.Marker({
+        var marker = new google.maps.Marker({
             position: location,
-            label: labels[i % labels.length],
+            label: labels[i % labels.length]
         });
+
+        // Add listener for when marker is clicked
+        google.maps.event.addListener(marker, 'click', function() {
+            infoWin.setContent(location.info);
+            infoWin.open(map, marker);
+        })
+        return marker;
     });
 
-    // Clustering Markers
-    var markerCluster = new MarkerClusterer(map, markers, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
-
+  // Add a marker clusterer to manage the markers.
+    var markerCluster = new MarkerClusterer(map, markers, {
+        imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
+    });
 };
