@@ -114,6 +114,7 @@ to be removed ----
 * [Encirclephotos.com](https://www.encirclephotos.com/image/saluting-battery-in-valletta-malta/) for image of the Saluting Battery
 * [Thesabaticalguide.com](https://thesabbaticalguide.com/popeye-village-malta/) for image of the Popeye Village.
 * [Britannica.com](https://www.britannica.com/topic/megalith) for the image of Ħaġar Qim.
+* Icons used on set map markers are taken from the image tag found when using the autocomplete search for that place on my site.
 
 to be removed ----
 
