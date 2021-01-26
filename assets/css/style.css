@@ -7,6 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
 /* -- Hover:css -- */
@@ -254,6 +255,22 @@ footer a:hover {
 
 .red-btn:hover {
     color: #ffffff;
+}
+
+#scroll-up {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none;
+    background-color: #aaaaaa; 
+    color: #ffffff; 
+    cursor: pointer; 
+    padding: 10px; 
+    border-radius: 10px; 
+    font-size: 30px; 
 }
 
 /* -- Media Queries -- */

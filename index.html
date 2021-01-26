@@ -19,7 +19,7 @@
 
     <!-- Nav bar -->
 
-    <nav class="navbar navbar-expand-lg navbar-light navbar-expand-sm fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light navbar-expand-sm fixed-top" id="navbar">
         <a class="navbar-brand hvr-grow" href="index.html">Discover Malta</a>
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,11 +28,10 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link hvr-grow" href="index.html">Home<span class="sr-only">Current</span></a>
+                    <a class="nav-link hvr-grow" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link hvr-grow" href="#recommendations">Recommendations<span
-                            class="sr-only">Current</span></a>
+                    <a class="nav-link hvr-grow" href="#recommendations">Recommendations</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link hvr-grow" href="#contact">Contact</a>
@@ -41,27 +40,31 @@
         </div>
     </nav>
 
+    <!-- Scroll tot op button -->
+
+    <button id="scroll-up" onclick="scrollUp();" title="Back To Top"><i class="far fa-arrow-alt-circle-up"></i></button>
+
     <!-- Callout section -->
 
     <section class="callout-container">
         <!--<img src="assets/images/hero-img.jpg" alt="">-->
 
         <!--
-        <div class="search-container">
-            <h2 class="header text-center">Malta has many wonderful places to visit and sites to see. Let us help you
-                find where to go.</h2>
-            <div id="pac-container" class="text-center">
-                <input id="pac-input" type="text" placeholder="Search for a place" />
-            </div>
-            <div class="map-container">
-                <div id="map"></div>
-                <div id="infowindow-content">
-                    <img src="" width="16" height="16" id="place-icon" />
-                    <span id="place-name" class="title"></span><br />
-                    <span id="place-address"></span>
+            <div class="search-container">
+                <h2 class="header text-center">Malta has many wonderful places to visit and sites to see. Let us help you
+                    find where to go.</h2>
+                <div id="pac-container" class="text-center">
+                    <input id="pac-input" type="text" placeholder="Search for a place" />
                 </div>
-            </div>
-        </div> -->
+                <div class="map-container">
+                    <div id="map"></div>
+                    <div id="infowindow-content">
+                        <img src="" width="16" height="16" id="place-icon" />
+                        <span id="place-name" class="title"></span><br />
+                        <span id="place-address"></span>
+                    </div>
+                </div>
+            </div> -->
 
     </section>
 
@@ -88,8 +91,8 @@
 
     <!-- Trip recommendations -->
 
-    <section class="recommendations-container container-fluid bg-two">
-        <header class="text-center pt-3 pb-3 bg-two" id="recommendations">
+    <section class="recommendations-container container-fluid bg-two" id="recommendations">
+        <header class="text-center pt-3 pb-3 bg-two">
             <h1 class="header">Ideas For Your Trip</h1>
         </header>
 
@@ -403,6 +406,8 @@
             <button type="submit" class="btn form-btn mt-2 red-btn hvr-grow">Send Message</button>
         </form>
     </section>
+
+
 
     <!-- Footer -->
 
