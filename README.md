@@ -59,6 +59,7 @@ In the furture I would liek toa dd the following features to the site:
 * [Resizeimage.net](https://resizeimage.net/) used to crop and resize images used. 
 * [Font Awesome](https://fontawesome.com/) for various icons.
 * [Google Places API](https://developers.google.com/places/web-service/overview) and [Google Maps Javascript API](https://developers.google.com/maps/documentation/javascript/overview) for adding the map and seacrh box to my site.
+* [Latlong.net](https://www.latlong.net/) to find the latitude and longitude for Malta and the map markers.
 
 # Deployment 
 
