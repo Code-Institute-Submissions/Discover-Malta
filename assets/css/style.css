@@ -178,7 +178,6 @@ body {
 .form-container {
     background-color: #cf142b;
     color: #ffffff;
-    height: 95vh;
 }
 
 .form-label {
@@ -188,7 +187,7 @@ body {
 form {
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    width: 50%;
 }
 /* -- Footer -- */
 
