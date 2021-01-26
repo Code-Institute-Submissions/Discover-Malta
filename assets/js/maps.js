@@ -1,3 +1,5 @@
+// document.addEventListener('DOMContentLoaded', initMap());
+
 // Some of the below code has been taken directly from the documentation for Google Places API. I have made some changes for it to suit my requirements.
 
 function initMap(){ 
@@ -9,6 +11,7 @@ function initMap(){
         zoom: 10,
     });
 
+    // Creating the sutocomplete search and info widnows displayed 
     // Set the search box to use autocomplete and restrict the results to Malta only. "MT" is the entire archipelago
     const input = document.getElementById("pac-input");
     const autocomplete = new google.maps.places.Autocomplete(input);
@@ -66,4 +69,30 @@ function initMap(){
         infowindowContent.children["place-address"].textContent = address;
         infowindow.open(map, marker);
     });    
-}
+
+    // Creating marker clusters for recommended places
+    // Array of characters to be used as the map labels
+    //const labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+  // Add markers to the map
+  /*
+    const markers = locations.map((location, i) => {
+        return new google.maps.Marker({
+        position: location,
+        label: labels[i % labels.length],
+        });
+    });
+
+    // Add a marker clusterer to manage the markers.
+    new MarkerClusterer(map, markers, {
+        imagePath:
+        "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
+    }); */
+};
+
+// Create the locations and content shown
+/*const locations = [
+  { 
+      place_id = "ChIJxUeGHShFDhMRF8lC4o7TWnQ"
+   },
+];*/
