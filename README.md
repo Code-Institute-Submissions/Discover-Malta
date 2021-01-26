@@ -76,6 +76,7 @@ In the furture I would liek toa dd the following features to the site:
 * [Hover:CSS](https://ianlunn.github.io/Hover/) classes have been added to my own CSS file for additional styling.
 * [Bootstrap](https://getbootstrap.com/) classes have been used throughout this site. 
 * [Google Places API](https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-multiple-countries) "Places Autocomplete Restricted To Multiple Countries" example was used as a template for my search.js file. I changed some of the code to suit what I needed.
+* [Stack Overflow](https://stackoverflow.com/questions/40047210/integrate-google-maps-markerclusterer-with-infowindow) followed this to add info window when set markers in markerclusterer are clicked.
 
 ### Content:
 
