@@ -267,8 +267,7 @@ footer a:hover {
     outline: none;
     background-color: #aaaaaa; 
     color: #ffffff; 
-    cursor: pointer; 
-    padding: 10px; 
+    cursor: pointer;  
     border-radius: 10px; 
     font-size: 30px; 
 }
@@ -303,6 +302,7 @@ footer a:hover {
     #pac-input {
         width: 300px;
     }
+
 }
 
 @media screen and (min-width: 576px) {
