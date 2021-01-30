@@ -72,11 +72,11 @@ function initMap(){
 
     // Creating marker clusters for recommended places, followed along with the course videos & API documentation
     // Array of characters to be used as the map labels
-    var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    const labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
     // Locations shown are the places from the trip recommendations section
     // Places searched in the site's search box and img tag copied and added into the below
-    var locations = [
+    const locations = [
         { lat: 35.898907, lng: 14.514553, info: `<img src="https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png" width="16" height="16"> <strong>Valletta</strong>` }, // Valletta
         { lat: 35.884430, lng: 14.403160, info: `<img src="https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png" width="16" height="16"> <strong>Mdina</strong>` }, // Mdina
         { lat: 35.913760, lng: 14.489910, info: `<img src="https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png" width="16" height="16"> <strong>Saint Julians</strong>` }, // Saint Julians
@@ -94,11 +94,11 @@ function initMap(){
     // Creating an info window for the set markers
     // Below code found on a Stack Overflow page, linked in README file
 
-    var infoWin = new google.maps.InfoWindow();
+    const infoWin = new google.maps.InfoWindow();
     
     // Add the markers
-    var markers = locations.map(function(location, i) {
-        var marker = new google.maps.Marker({
+    const markers = locations.map(function(location, i) {
+        const marker = new google.maps.Marker({
             position: location,
             label: labels[i % labels.length]
         });
@@ -112,7 +112,7 @@ function initMap(){
     });
 
   // Add a marker clusterer to manage the markers.
-    var markerCluster = new MarkerClusterer(map, markers, {
+    const markerCluster = new MarkerClusterer(map, markers, {
         imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
     });
 };
