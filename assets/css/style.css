@@ -103,7 +103,7 @@ body {
     background-image: url("../images/hero-img.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     padding-left: 0;
     padding-right: 0;
@@ -116,6 +116,15 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
+}
+
+.info-container {
+    background-color: #cf142b;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 30%;
+    width: 100%;
 }
 
 /* -- Trip recommendations -- */
@@ -165,14 +174,6 @@ body {
     width: 700px;
 }
 
-/* -- Info section -- */
-
-.info-container {
-    background-color: #cf142b;
-    color: #ffffff;
-    padding-left: 100px;
-    padding-right: 100px;
-}
 
 /* -- Contact form -- */
 
@@ -285,8 +286,8 @@ footer a:hover {
     }
 
     .info-container {
-        padding-right: 50px;
-        padding-left: 50px;
+        padding-right: 20px;
+        padding-left: 20px;
     }
 
     .search-container p {
