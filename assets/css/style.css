@@ -99,7 +99,7 @@ body {
 
 /* -- About section-- */
 
-.about-container {
+.image-container {
     background-image: url("../images/hero-img.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -118,11 +118,11 @@ body {
     position: relative;
 }
 
-.info-container {
+.about-container {
     background-color: #cf142b;
     color: #ffffff;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
     height: 30%;
     width: 100%;
 }
@@ -285,7 +285,7 @@ footer a:hover {
         font-size: 25px;
     }
 
-    .info-container {
+    .about-container {
         padding-right: 20px;
         padding-left: 20px;
     }
