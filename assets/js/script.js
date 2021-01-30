@@ -46,6 +46,12 @@ $("#home-link").click(function () {
     return false;
 });
 
+$("#about-link").click(function () {
+    $('html, body').animate({
+        scrollTop: $("#about").offset().top - 66
+    }, 800);
+    return false;
+});
 
 $("#recommendation-link").click(function () {
     $('html, body').animate({
