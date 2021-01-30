@@ -82,6 +82,11 @@ body {
     color: #cf142b;
 }
 
+.navbar-light .navbar-nav .nav-link:focus {
+    color: #cf142b;
+}
+
+
 .navbar .navbar-nav .active>.nav-link {
     color: #cf142b;
     text-decoration: none;
