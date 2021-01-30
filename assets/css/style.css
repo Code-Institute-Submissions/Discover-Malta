@@ -97,9 +97,9 @@ body {
     margin-right: 15px;
 }
 
-/* -- Callout section-- */
+/* -- About section-- */
 
-.callout-container {
+.about-container {
     background-image: url("../images/hero-img.jpg");
     background-position: center;
     background-repeat: no-repeat;
