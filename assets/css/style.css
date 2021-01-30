@@ -331,4 +331,7 @@ footer a:hover {
         width: 80%;
     }
 
+    .navbar-light .navbar-nav .nav-link {
+        margin-left: 15px;
+    }
 }
