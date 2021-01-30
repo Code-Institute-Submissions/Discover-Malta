@@ -276,11 +276,11 @@ footer a:hover {
 /* -- Media Queries -- */
 
 @media screen and (max-width: 575.98px) {
-
+    
     .navbar .navbar-brand {
         font-size: 30px;
     }
-
+    
     .navbar-light .navbar-nav .nav-link {
         font-size: 25px;
     }
