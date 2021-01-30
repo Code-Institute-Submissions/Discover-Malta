@@ -94,6 +94,7 @@ In the furture I would liek toa dd the following features to the site:
 * [Wikipedia](https://en.wikipedia.org/wiki/Saluting_Battery_(Valletta) for written content for Saluting Battery.
 * [Wikipedia](https://en.wikipedia.org/wiki/Popeye_Village) for written content about the Popeye Village.
 * [Wikipedia](https://en.wikipedia.org/wiki/%C4%A6a%C4%A1ar_Qim) for written content for Ħaġar Qim.
+* [Visitmalta.com](https://www.visitmalta.com/en/about-malta) for written content in the "About Malta" section.
 
 to be removed ----
 * [Wikipedia](https://en.wikipedia.org/wiki/Palace_Armoury) for written content for Palace Armoury.
