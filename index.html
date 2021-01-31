@@ -13,6 +13,12 @@
         integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
         crossorigin="anonymous" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_2u8u9ydHA9eK3TbTVd93b");
+        })();
+    </script>
 </head>
 
 <body onload="initMap();">
@@ -390,35 +396,35 @@
             <p>If you have any questions about Malta or would like any information or recommendations for your upcoming
                 trip please send us a message. We are happy to help.</p>
         </header>
-        <form class="shadow p-3 mb-4 bg-white rounded text-center pb-4">
+        <form class="shadow p-3 mb-4 bg-white rounded text-center pb-4" onsubmit="return sendMail(this);">
             <div class="row">
                 <div class=" col-md-6 col-sm-12 form-group mb-3">
                     <label for="name" class="header-minor form-label mb-2">First Name</label>
-                    <input type="text" id="firstname" class="form-control form-input" required>
+                    <input name="firstname" type="text" id="firstname" class="form-control form-input" required>
                 </div>
                 <div class=" col-md-6 col-sm-12 form-group mb-3">
                     <label for="name" class="header-minor form-label mb-2">Last Name</label>
-                    <input type="text" id="lastname" class="form-control form-input" required>
+                    <input name="lastname" type="text" id="lastname" class="form-control form-input" required>
                 </div>
                 <div class="col-12 col-lg-6 form-group mb-3">
                     <label for="email" class="header-minor form-label mb-2">Email Address</label>
-                    <input type="email" id="email" class="form-control form-input" required>
+                    <input name="email" type="email" id="email" class="form-control form-input" required>
                 </div>
                 <div class="form-group col-12 col-lg-6 mb-3">
                     <label for="number" class="header-minor form-label mb-2">Phone Number</label>
-                    <input type="tel" id="number" class="form-control form-input" required>
+                    <input name="phone" type="tel" id="number" class="form-control form-input" required>
                 </div>
                 <div class="form-group col-6 col-lg-6 mb-3">
                     <label for="datefrom" class="header-minor form-label mb-2">Date Of Arrival</label>
-                    <input type="text" id="datefrom" class="form-control form-input datepicker">
+                    <input  name="from" type="text" id="datefrom" class="form-control form-input datepicker">
                 </div>
                 <div class="form-group col-6 col-lg-6 mb-3">
                     <label for="dateto" class="header-minor form-label mb-2">Date Of Departure</label>
-                    <input type="text" id="dateto" class="form-control form-input datepicker">
+                    <input name="to" type="text" id="dateto" class="form-control form-input datepicker">
                 </div>
                 <div class="form-group col-12 mb-3">
                     <label for="message" class="header-minor form-label mb-2">Your Message</label>
-                    <textarea class="form-control form-input" id="message" rows="3" required></textarea>
+                    <textarea name="message" class="form-control form-input" id="message" rows="3" required></textarea>
                 </div>
             </div>
             <button type="submit" class="btn form-btn mt-2 red-btn hvr-grow">Send Message</button>
@@ -449,7 +455,8 @@
 
     <script src="https://code.jquery.com/jquery-3.5.1.js"
         integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+        integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
         crossorigin="anonymous"></script>
@@ -458,6 +465,7 @@
         crossorigin="anonymous"></script>
     <script src="assets/js/maps.js"></script>
     <script src="assets/js/script.js"></script>
+    <script src="assets/js/email.js"></script>
     <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
     <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNIgf0iTdztEGqUZjbUWMtmG7n7ZVz9RU&libraries=places&v=weekly"></script>
