@@ -280,6 +280,29 @@ footer a:hover {
 
 /* -- Media Queries -- */
 
+@media screen and (max-width: 991.98px) {
+    
+    form {
+        width: 80%;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        margin-left: 15px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+
+    .map-container {
+        height: 500px;
+        width: 500px;
+    }
+
+    #pac-input {
+        width: 500px;
+    }
+}
+
 @media screen and (max-width: 575.98px) {
     
     .navbar .navbar-brand {
@@ -311,27 +334,7 @@ footer a:hover {
         width: 300px;
     }
 
-}
-
-@media screen and (min-width: 576px) {
-
-    .map-container {
-        height: 500px;
-        width: 500px;
-    }
-
-    #pac-input {
-        width: 500px;
-    }
-}
-
-@media screen and (max-width: 991.98px) {
-    
     form {
-        width: 80%;
-    }
-
-    .navbar-light .navbar-nav .nav-link {
-        margin-left: 15px;
+        width: 95%;
     }
 }
