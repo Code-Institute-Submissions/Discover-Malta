@@ -63,6 +63,7 @@ In the furture I would liek toa dd the following features to the site:
 * [Latlong.net](https://www.latlong.net/) to find the latitude and longitude for Malta and the map markers.
 * [Favicon.io](https://favicon.io/favicon-generator/) to create the image used for the favicon.
 * [Favicon-generator.com](https://www.favicon-generator.org/) to turn the image into a favicon.
+* [Fancybox](https://fancyapps.com/fancybox/3/) to create an image gallery.
 
 # Deployment 
 
