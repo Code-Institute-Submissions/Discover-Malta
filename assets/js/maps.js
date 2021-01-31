@@ -1,5 +1,4 @@
 // Some of the below code has been taken directly from the documentation for Google Places API. I have made some changes for it to suit my requirements.
-
 function initMap() {
 
     // Set the map centered on the Maltese Archipelago
@@ -11,7 +10,6 @@ function initMap() {
 
     // Creating the sutocomplete search and info widnows displayed 
     // Set the search box to use autocomplete and restrict the results to Malta only. "MT" is the entire archipelago
-
     const input = document.getElementById("pac-input");
     const autocomplete = new google.maps.places.Autocomplete(input);
     autocomplete.setComponentRestrictions({
@@ -19,7 +17,6 @@ function initMap() {
     });
 
     // Set the information found and returned in the info window that pops up once a place is searched for 
-
     autocomplete.setFields(["address_components", "geometry", "icon", "name"]);
     const infowindow = new google.maps.InfoWindow();
     const infowindowContent = document.getElementById("infowindow-content");
@@ -141,7 +138,6 @@ function initMap() {
 
     // Creating an info window for the set markers
     // Below code found on a Stack Overflow page, linked in README file
-
     const infoWin = new google.maps.InfoWindow();
 
     // Add the markers

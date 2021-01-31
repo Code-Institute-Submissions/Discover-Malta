@@ -14,7 +14,6 @@ function toggleContent() {
     });
 };
 
-
 // Adding a button that allows user to scroll to top, tutorial from W3Schools. Linked in README
 //Get the button:
 mybutton = document.getElementById("scroll-up");
@@ -35,7 +34,6 @@ function scrollUp() {
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
-
 
 // Smooth scrolling to anchor point
 // Followed along with a tutorial on Medium.com, linked in README file
@@ -67,7 +65,6 @@ $("#contact-link").click(function () {
     }, 800);
     return false;
 });
-
 
 // Adding interactive calendar on contact form for dates of travel
 // From JqueryUI, linked in README file
