@@ -135,11 +135,7 @@ body {
 /* -- Trip recommendations -- */
 
 .search-container {
-    /*position: absolute;
-    z-index: 1;*/
     clear: both;
-    /*height: 500px;
-    width: 700px;*/
 }
 
 .search-container p {
