@@ -53,7 +53,8 @@ In the furture I would liek toa dd the following features to the site:
 * HTML
 * CSS 
 * JavScript 
-* Jquery
+* [JQuery](https://jquery.com/)
+* [JQueryUI](https://jqueryui.com/)
 * [Bootstrap](https://getbootstrap.com/)
 * [Google Fonts](https://fonts.google.com/) used to find font I used in the site.
 * [Resizeimage.net](https://resizeimage.net/) used to crop and resize images used. 
@@ -79,6 +80,7 @@ In the furture I would liek toa dd the following features to the site:
 * [Stack Overflow](https://stackoverflow.com/questions/40047210/integrate-google-maps-markerclusterer-with-infowindow) followed this to add info window when set markers in markerclusterer are clicked.
 * [W3Schools](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp) for tutorial on adding a scroll to top button.
 * [Medium.com](https://medium.com/@pacific880/learn-to-make-one-page-scroll-navigation-b97ab42ef6fa for tutorial on adding smooth scrolling to anchor points on site with fixed navbar.
+* [JqueryUI](https://jqueryui.com/datepicker/#default) for the datepicker used in contact form.
 
 ### Content:
 
