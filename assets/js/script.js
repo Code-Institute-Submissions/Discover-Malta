@@ -36,6 +36,7 @@ function scrollUp() {
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
+
 // Smooth scrolling to anchor point
 // Followed along with a tutorial on Medium.com, linked in README file
 // When link is clicked, page scrolls to that point. Offset included so fixed navbar does not cover part of section that contains the header
@@ -66,3 +67,10 @@ $("#contact-link").click(function () {
     }, 800);
     return false;
 });
+
+
+// Adding interactive calendar on contact form for dates of travel
+// From JqueryUI, linked in README file
+$(function() {
+    $( ".datepicker" ).datepicker();
+} );
