@@ -81,7 +81,7 @@ In the furture I would liek toa dd the following features to the site:
 * [Bootstrap](https://getbootstrap.com/) classes have been used throughout this site. 
 * [Google Places API](https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-multiple-countries) "Places Autocomplete Restricted To Multiple Countries" example was used as a template for my search.js file. I changed some of the code to suit what I needed.
 * [Stack Overflow](https://stackoverflow.com/questions/40047210/integrate-google-maps-markerclusterer-with-infowindow) followed this to add info window when set markers in markerclusterer are clicked.
-* [W3Schools](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp) for tutorial on adding a scroll to top button.
+* [Codepen.io](https://codepen.io/michalwyrwa/pen/GBaPPj) for tutorial on adding a scroll to top button.
 * [Medium.com](https://medium.com/@pacific880/learn-to-make-one-page-scroll-navigation-b97ab42ef6fa for tutorial on adding smooth scrolling to anchor points on site with fixed navbar.
 * [JqueryUI](https://jqueryui.com/datepicker/#default) for the datepicker used in contact form.
 * [Stack Overflow](https://stackoverflow.com/questions/21247674/refresh-the-page-when-the-ok-alert-button-is-clicked) for tutorial on getting the page to refresh once the user selects "ok" on alert box after form is submitted.
