@@ -30,8 +30,23 @@ I chose to create this website as I have visited Malta previously and it was a h
 * [Tablet](https://github.com/HollyC7/Discover-Malta/blob/master/wireframes/discover-malta-wireframes-tablet.pdf)
 * [Mobile](https://github.com/HollyC7/Discover-Malta/blob/master/wireframes/discover-malta-wireframes-mobile.pdf)
 
+#### Deviations From Wireframes On Final Site:
+
+* A one page site instead of seperate pages seemed to work better. The navigation bar scrolls to each section of the page.
+* Main image takes up 100vh. I felt this looked better once I had created this section and left it like this for all screens.
+* A one page site instead of seperate pages seemed to work better. The navigation bar scrolls to each section of the page.
+* A scroll to top button was added for the user to be able to return to the top easily.
+* "Places" was initially showing cities the suer could choose form which would show a new oage with the details, 
+on mentor advice instead of having a seperate "Places" I changed "Ideas For Your Trip" to incorporate some of these aspects like the map and split the cards and content into areas and attractions instead of culture, nightlife & attractions.
+* Button on Jumbotron not incldued as a seperate "Places" page was not included as this is now a one page site. I felt with the short scroll down as well as the navigation bar there was no need.
+* Footer does not link to the "Places" page as it was not included.
+* No section before the footer about the website, this is covered by the Jumbotron and the content above the map in "Ideas For Your Trip"
+* The section "About Malta" was added.
 
 ### Colour Palette:
+
+
+### Font: 
 
 # Features
 
