@@ -142,6 +142,11 @@ body {
 
 /* -- Trip recommendations -- */
 
+.recommendations-container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .search-container {
     clear: both;
 }
@@ -181,6 +186,15 @@ body {
 #pac-input {
     border: 1px solid;
     width: 700px;
+}
+
+.card-deck .card {
+    margin: 0;
+}
+
+.areas-section {
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 /* -- Contact form -- */
@@ -282,6 +296,10 @@ footer a:hover {
     font-size: 30px; 
 }
 
+.no-padding { /* using this to remove the padding set on Bootstrap 4 cols, site was built with Bootstrap 5 CSS but changed to Bootstrap 4 during the end of development */
+    padding: 0;
+}
+
 /* -- Media Queries -- */
 
 @media screen and (max-width: 1199.98px) {
@@ -353,4 +371,5 @@ footer a:hover {
     .image-container-callout {
         width: 90%;
     }
+
 }
