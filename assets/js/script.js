@@ -31,7 +31,7 @@ $(document).ready(function(){
 				scrollTop: 0
 			}, 400);
 			return false;
-		});
+	});
 });
 
 // Smooth scrolling to anchor point
