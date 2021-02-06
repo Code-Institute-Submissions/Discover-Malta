@@ -8,13 +8,13 @@
     <title>Discover Malta</title>
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
         integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
         crossorigin="anonymous" />
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
     <script type="text/javascript">
@@ -115,7 +115,7 @@
                 also use the search box to help.
             </p>
             <div id="pac-container pb-3" class="text-center">
-                <input id="pac-input" type="text" placeholder="Search for a place" class="mb-3"/>
+                <input id="pac-input" type="text" placeholder="Search for a place" class="mb-3" />
             </div>
             <div class="map-container ml-auto mr-auto">
                 <div id="map"></div>
@@ -129,10 +129,10 @@
 
         <!-- Areas -->
 
+        <header class="pt-2 pb-3 text-center bg-one">
+            <h1 class="header">Popular Areas</h1>
+        </header>
         <div class="row card-deck text-center pb-3 bg-one px-2">
-            <header class="mt-2 mb-3">
-                <h1 class="header">Popular Areas</h1>
-            </header>
             <div class="col-xl-4 col-md-6 col-sm-12 pb-3">
                 <div class="card h-100 shadow rounded bg-white">
                     <a data-fancybox="gallery" href="assets/images/valletta.jpg">
@@ -160,7 +160,7 @@
                 <div class="card h-100 shadow rounded bg-white">
                     <a data-fancybox="gallery" href="assets/images/mdina.jpg">
                         <img src="assets/images/mdina.jpg" class="card-img-top" alt="Mdina">
-                    </a>    
+                    </a>
                     <div class="card-body">
                         <h3 class="card-title header-minor">Mdina</h3>
                         <button class="btn btn-sm red-btn hvr-grow mb-2 mt-2 card-button">Find out more</button>
@@ -269,14 +269,15 @@
 
         <!-- Attractions -->
 
+        <header class="mt-2 mb-3 text-center">
+            <h1 class="header">Popular Attractions</h1>
+        </header>
         <div class="row card-deck text-center pb-3 bg-two px-2">
-            <header class="mt-2 mb-3">
-                <h1 class="header">Popular Attractions</h1>
-            </header>
             <div class="col-xl-4 col-md-6 col-sm-12 pb-3">
                 <div class="card h-100 shadow rounded bg-white">
                     <a data-fancybox="gallery" href="assets/images/attractions-a.jpg">
-                        <img src="assets/images/attractions-a.jpg" class="card-img-top h-300" alt="St. John's Co Cathedral">
+                        <img src="assets/images/attractions-a.jpg" class="card-img-top h-300"
+                            alt="St. John's Co Cathedral">
                     </a>
                     <div class="card-body">
                         <h3 class="card-title header-minor">St. John's Co Cathedral</h3>
@@ -432,7 +433,7 @@
                 </div>
                 <div class="form-group col-12 col-lg-6 mb-3">
                     <label for="datefrom" class="header-minor form-label mb-2">Date Of Arrival</label>
-                    <input  name="from" type="text" id="datefrom" class="form-control form-input datepicker">
+                    <input name="from" type="text" id="datefrom" class="form-control form-input datepicker">
                 </div>
                 <div class="form-group col-12 col-lg-6 mb-3">
                     <label for="dateto" class="header-minor form-label mb-2">Date Of Departure</label>
