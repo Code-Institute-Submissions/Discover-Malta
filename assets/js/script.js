@@ -14,26 +14,25 @@ function toggleContent() {
     });
 };
 
-// Adding a button that allows user to scroll to top, tutorial from W3Schools. Linked in README
-//Get the button:
-mybutton = document.getElementById("scroll-up");
-
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function () { scrollFunction() };
-
-function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        mybutton.style.display = "block";
-    } else {
-        mybutton.style.display = "none";
-    }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function scrollUp() {
-    document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
+// Adding a button that allows user to scroll to top
+// Found on Codepen.io, linked in README file
+$(document).ready(function(){
+	$(window).scroll(function () {
+            // when window is scrolled down 20px the buttons shows
+			if ($(this).scrollTop() > 20) {
+				$('#scroll-up').fadeIn();
+			} else { // button is hidden 
+				$('#scroll-up').fadeOut();
+			}
+		});
+		// scroll body to 0px on click
+		$('#scroll-up').click(function () {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 400);
+			return false;
+		});
+});
 
 // Smooth scrolling to anchor point
 // Followed along with a tutorial on Medium.com, linked in README file
