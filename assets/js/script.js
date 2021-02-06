@@ -71,3 +71,9 @@ $("#contact-link").click(function () {
 $(function() {
     $( ".datepicker" ).datepicker();
 } );
+
+// Collapse the burger menu when an item is clicked
+// From Stackoverflow, linked in README file
+$('.navbar-nav>li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+});
