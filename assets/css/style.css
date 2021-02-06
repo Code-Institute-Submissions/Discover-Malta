@@ -123,6 +123,14 @@ body {
     position: relative;
 }
 
+.image-container-callout {
+    color: #ffffff;
+    letter-spacing: 4px;
+    font-family: 'Dancing Script', cursive;
+    background-color: rgba(207, 20, 43, 0.8);
+    padding: 25px;
+}
+
 .about-container {
     background-color: #cf142b;
     color: #ffffff;
@@ -276,6 +284,14 @@ footer a:hover {
 
 /* -- Media Queries -- */
 
+@media screen and (max-width: 1199.98px) {
+
+    .image-container-callout {
+        width: 70%;
+    }
+
+}
+
 @media screen and (max-width: 991.98px) {
     
     form {
@@ -332,5 +348,9 @@ footer a:hover {
 
     form {
         width: 95%;
+    }
+
+    .image-container-callout {
+        width: 90%;
     }
 }
