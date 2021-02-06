@@ -61,7 +61,6 @@ body {
     font-size: 45px;
     text-decoration: none;
     letter-spacing: 4px;
-    margin-left: 15px;
     overflow: visible;
 }
 
@@ -312,9 +311,6 @@ footer a:hover {
         width: 80%;
     }
 
-    .navbar-light .navbar-nav .nav-link {
-        margin-left: 15px;
-    }
 }
 
 @media screen and (min-width: 576px) {
@@ -338,7 +334,6 @@ footer a:hover {
     
     .navbar-light .navbar-nav .nav-link {
         font-size: 25px;
-        margin-left: 15px;
     }
 
     .about-container {
