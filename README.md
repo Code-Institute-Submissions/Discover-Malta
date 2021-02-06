@@ -45,6 +45,9 @@ on mentor advice instead of having a seperate "Places" I changed "Ideas For Your
 
 ### Colour Palette:
 
+I wanted the colour of the Maltese flag to feature frequently across the site. I chose two white variations for a contrast to use in background and the navigation bar as well as a shade of black for the footer.
+
+https://github.com/HollyC7/Discover-Malta/blob/master/assets/images/discover-malta-colour-palette.png
 
 ### Font: 
 
