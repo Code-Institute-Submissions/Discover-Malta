@@ -26,6 +26,11 @@ I chose to create this website as I have visited Malta previously and it was a h
 
 ### Wireframes:
 
+* [Desktop](https://github.com/HollyC7/Discover-Malta/blob/master/wireframes/discover-malta-wireframes-desktop.pdf)
+* [Tablet](https://github.com/HollyC7/Discover-Malta/blob/master/wireframes/discover-malta-wireframes-tablet.pdf)
+* [Mobile](https://github.com/HollyC7/Discover-Malta/blob/master/wireframes/discover-malta-wireframes-mobile.pdf)
+
+
 ### Colour Palette:
 
 # Features
