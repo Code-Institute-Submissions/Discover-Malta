@@ -85,6 +85,7 @@ In the furture I would liek toa dd the following features to the site:
 * [Medium.com](https://medium.com/@pacific880/learn-to-make-one-page-scroll-navigation-b97ab42ef6fa for tutorial on adding smooth scrolling to anchor points on site with fixed navbar.
 * [JqueryUI](https://jqueryui.com/datepicker/#default) for the datepicker used in contact form.
 * [Stack Overflow](https://stackoverflow.com/questions/21247674/refresh-the-page-when-the-ok-alert-button-is-clicked) for tutorial on getting the page to refresh once the user selects "ok" on alert box after form is submitted.
+* [Stack Overflow](https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click) for tutorial on collapsing the burger menu when a link is clicked.
 
 ### Content:
 
