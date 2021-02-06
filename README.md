@@ -65,6 +65,26 @@ In the furture I would liek toa dd the following features to the site:
 * [Favicon-generator.com](https://www.favicon-generator.org/) to turn the image into a favicon.
 * [Fancybox](https://fancyapps.com/fancybox/3/) to create an image gallery.
 
+### Bootstrap Version Issue
+
+Initially I created this site using Bootstrap version 5 as this is the version shown when accessing the Bootstrap site. 
+
+However during the development of the site I realised there was an issue with the burger menu not working. I thought this was due to the order of my script tags however nothing I did at the time worked.
+
+I read into this and found that Bootstrap 5 does not support Jquery. More on this [here](https://b862579c-57d6-4a95-a6a3-fa6a3cebd8b4.ws-eu03.gitpod.io/#/workspace/Discover-Malta). 
+
+I was unsure of how to proceed and changed my Bootstrap Javascript to version 4.6. This resulted in the burger menu working as intented.
+
+I then changed the Bootstrap CSS file to version 4.6 also. 
+
+Changing versions caused some issues with the site and the following had to be done:
+
+* I fixed the grid layout of "Ideas For Your Trip" as I had not used containers at the time and this caused the grid to not work once the Bootstrap version was changed.
+* The padding on col classes was different and caused the cards in "Ideas For Your Trip" to not fit as nicely as before. To fix this I rewrote the code for the section and added spacing as necessary after.
+* Spacing classes such as pt-2 etc were slightly different so I updated these also.
+* I had followed a [tutorial](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp) from W3Schools to implement a scroll to top button which did not work after changing the Bootstrap version. I found another [code snippet](https://codepen.io/michalwyrwa/pen/GBaPPj) for this instead.
+* H3 used in the cards under "Ideas For Your Trip" were changed to H4 as the font-size of these was too big.
+
 # Deployment 
 
 ### How To Run This Project With Gitpod:
