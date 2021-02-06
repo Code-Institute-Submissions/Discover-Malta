@@ -303,6 +303,10 @@ footer a:hover {
         width: 70%;
     }
 
+    form {
+        width: 70%;
+    }
+
 }
 
 @media screen and (max-width: 991.98px) {
