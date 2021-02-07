@@ -161,7 +161,7 @@ In the future I would like to add the following features to the site:
 
 ### APIs
 
-This site uses two APIs from the Google Devlopers Console:
+This site uses two APIs from the Google Devlopers Console as well as EmailJS:
 
 1. [Google Places API](https://developers.google.com/places/web-service/overview):
     * Used to implement a search box where the user can search for places in Malta. 
@@ -173,6 +173,9 @@ This site uses two APIs from the Google Devlopers Console:
     * Map shows the user the Maltese archipelago based on coordinates entered.
     * Some markers are pre-set for the user to see and related to areas and attractions mentioned on the site. 
     Marker clusters were used so that if multiple markers are near each other they are clustered together until the user zooms in.
+
+3. [EmailJS](https://www.emailjs.com/)
+    * Used to allow to user to send a message through the contact form.
 
 ### Bootstrap Version Issue
 
@@ -193,6 +196,10 @@ Changing versions caused some issues with the site and the following had to be d
 * Spacing classes such as pt-2 etc were slightly different so I updated these also.
 * I had followed a [tutorial](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp) from W3Schools to implement a scroll to top button which did not work after changing the Bootstrap version. I found another [code snippet](https://codepen.io/michalwyrwa/pen/GBaPPj) for this instead.
 * H3 used in the cards under "Ideas For Your Trip" were changed to H4 as the font-size of these was too big.
+
+# Testing 
+
+All testing information can be located in the [TESTING.md](https://github.com/HollyC7/Discover-Malta/blob/master/TESTING.md) file.
 
 # Deployment 
 
