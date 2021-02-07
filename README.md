@@ -132,11 +132,45 @@ Changing versions caused some issues with the site and the following had to be d
 
 # Deployment 
 
+The website was developed using Gitpod which is a cloud based IDE.
+
+This was committed to git and pushed to GitHub using Gitpod's built in git function.
+
+The following steps were carried to deploy the website to [GitHub Pages](https://hollyc7.github.io/Discover-Malta/) from the [GitHub repository](https://github.com/HollyC7/Discover-Malta).
+
+1. Open the repository in GitHub HollyC7/Discover-Malta.
+2. Select Settings from the options at the top of the page and scroll down to the GitHub pages section.
+3. From Source select the "master" branch from the dropdown list and select "save".
+4. Once this has been selected the page is automatically refreshed and the site has been deployed.
+5. Navigate back to the GitHub Pages section to obtain the URL for the deployed site.
+
 ### How To Run This Project With Gitpod:
+
+1. Open the repository in GitHub HollyC7/Discover-Malta.
+2. Click the green "code" button on the top right.
+3. Copy the url: https://github.com/HollyC7/Discover-Malta.
+4. Paste the url into the url bar of a new tab.
+5. Add gitpod.io/# to the start of the url copied from GitHub.
+6. A new workspace will open
 
 ### How To Run This In A Local IDE: 
 
+1. Open the repository in GitHub HollyC7/Discover-Malta.
+2. Click the green "code" button on the top right.
+3. Copy the URL from the HTTPS section.
+4. Open the terminal in your local IDE.
+5. Change your current working directory to where you want the cloned file to be saved.
+6. Type git clone and the URL you coped from GitHub.
+7. Press enter and your local clone will be created.
+
 ### Fork The Project:
+
+Forking the project allows you to make a copy of the project in your own GitHub repository. You will then be able to use it and make changes without changing the original.
+
+1. Log in to GitHub.
+2. Open the repository HollyC7/Discover-Malta.
+3. On the top right located under your profile icon, select "fork".
+4. There will not be a copy in your own repository.
 
 # Credits
 
@@ -163,7 +197,7 @@ Changing versions caused some issues with the site and the following had to be d
 * [Wikipedia](https://en.wikipedia.org/wiki/Saint_John%27s_Co-Cathedral) for written content for St. Johns Co Cathedral.
 * [Wikipedia](https://en.wikipedia.org/wiki/Fort_St._Angelo) for written content for Fort St. Angelo.
 * [Maltauncovered.com](https://www.maltauncovered.com/comino-island/blue-lagoon/) for written content on the Blue Lagoon.
-* [Wikipedia](https://en.wikipedia.org/wiki/Saluting_Battery_(Valletta) for written content for Saluting Battery.
+* [Wikipedia](https://en.wikipedia.org/wiki/Saluting_Battery_(Valletta)) for written content for Saluting Battery.
 * [Wikipedia](https://en.wikipedia.org/wiki/Popeye_Village) for written content about the Popeye Village.
 * [Wikipedia](https://en.wikipedia.org/wiki/%C4%A6a%C4%A1ar_Qim) for written content for Ħaġar Qim.
 * [Visitmalta.com](https://www.visitmalta.com/en/about-malta) for written content in the "About Malta" section.
@@ -185,6 +219,7 @@ Changing versions caused some issues with the site and the following had to be d
 * Icons used on set map markers are taken from the image tag found when using the autocomplete search for that place on my site.
 * [Am I Responsive?](http://ami.responsivedesign.is/) to show the site on multiple devices.
 * [Favicon.io](https://favicon.io/favicon-generator/) was used to create the image used for the favicon by adding text and changing the colour and [Favicon-generator.com](https://www.favicon-generator.org/) was used to turn the image into a file to be used.
+* [Font Awesome](https://fontawesome.com/) for various social media icons.
 
 ### Resources:
 
