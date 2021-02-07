@@ -1,14 +1,14 @@
 # Discover Malta
 
-This is a website created to help users who are interested in visitng Malta on holiday find out about the island, popular places there and attractions to see.
+This is a website created to help users who are interested in visiting Malta on holiday find out about the island, popular places there and attractions to see.
 
 The archipelago and the other two islands and some attractions there are also included briefly in the site as tourists usually go to Malta on holiday and visit the other two islands.
 
-It provides information on areas and attractions and also includes a number of images of the varipus places mentioned.
+It provides information on areas and attractions and also includes a number of images of the various places mentioned.
 
-It also includes a map with pre determined markers they can view as well as an autocomplete search box they can use to search places.
+It also includes a map with pre-determined markers they can view as well as an auto complete search box they can use to search places.
 
-I chose to create this website as I have visited Malta previously and it was a holiday I really enhjoyed and I plan to visit there again in the future.
+I chose to create this website as I have visited Malta previously and it was a holiday I really enjoyed and I plan to visit there again in the future.
 
 # User Experience (UX)
 
@@ -23,7 +23,7 @@ I chose to create this website as I have visited Malta previously and it was a h
 
 #### Site Owner:
 
-1. As the site owner, I wanted to provide useful informaiton to site visitors to help them learn about Malta and where they could visit.
+1. As the site owner, I wanted to provide useful information to site visitors to help them learn about Malta and where they could visit.
 2. As the site owner, I wanted to show images of Malta and the various places references on the site.
 3. As the site owner, I wanted to include a map for users to look up and see various areas and attractions.
 4. As the site owner, I wanted to user to be able to get in touch if they had questions or if they were looking for recommendations for their trip.
@@ -36,13 +36,13 @@ I chose to create this website as I have visited Malta previously and it was a h
 
 #### Deviations From Wireframes On Final Site:
 
-* A one page site instead of seperate pages seemed to work better. The navigation bar scrolls to each section of the page.
+* A one-page site instead of separate pages seemed to work better. The navigation bar scrolls to each section of the page.
 * Main image takes up 100vh. I felt this looked better once I had created this section and left it like this for all screens.
-* A one page site instead of seperate pages seemed to work better. The navigation bar scrolls to each section of the page.
+* A one page site instead of separate pages seemed to work better. The navigation bar scrolls to each section of the page.
 * A scroll to top button was added for the user to be able to return to the top easily.
-* "Places" was initially showing cities the suer could choose form which would show a new oage with the details, 
-on mentor advice instead of having a seperate "Places" I changed "Ideas For Your Trip" to incorporate some of these aspects like the map and split the cards and content into areas and attractions instead of culture, nightlife & attractions.
-* Button on Jumbotron not incldued as a seperate "Places" page was not included as this is now a one page site. I felt with the short scroll down as well as the navigation bar there was no need.
+* "Places" was initially showing cities the user could choose form which would show a new page with the details,
+on mentor advice instead of having a separate "Places" I changed "Ideas For Your Trip" to incorporate some of these aspects like the map and split the cards and content into areas and attractions instead of culture, nightlife & attractions.
+* Button on Jumbotron not included as a seperate "Places" page was not included as this is now a one-page site. I felt with the short scroll down as well as the navigation bar there was no need.
 * Footer does not link to the "Places" page as it was not included.
 * No section before the footer about the website, this is covered by the Jumbotron and the content above the map in "Ideas For Your Trip"
 * The section "About Malta" was added.
@@ -66,10 +66,10 @@ This is a fully responsive website that allows the user to use any device to vie
 
 ### Navigation Bar:
 
-* The bavigation bar is always shown to the user when scrolling on all devices.
-* The name of the site as well as the navigation links inscrease in size when a mouse is hovered over on desktop.
+* The navigation bar is always shown to the user when scrolling on all devices.
+* The name of the site as well as the navigation links increase in size when a mouse is hovered over on desktop.
 * The name of the site can be clicked and it will return the user to the top of the page.
-* As it is a one page site the navigation links scroll the user down or up depening on which selection is made. An offset has been included in this so the navigation bar does not cover part of the section once it is scrolled to.
+* As it is a one-page site the navigation links scroll the user down or up depending on which selection is made. An offset has been included in this so the navigation bar does not cover part of the section once it is scrolled to.
 * The navigation links reference each section of the site.
 * The navigation links are shown in a burger menu on screen sizes of 991px and under.
 
@@ -89,7 +89,7 @@ This is a fully responsive website that allows the user to use any device to vie
 ### Home:
 
 * A background image is shown to the user which takes up 100vh on all devices.
-* A small jumbotron is shown in the middle of the background image that depicts the site name and text telling the user the the site can help them find holiday ideas.
+* A small jumbotron is shown in the middle of the background image that depicts the site name and text telling the user that the site can help them find holiday ideas.
 * The background colour of the jumbotron is an opaque version of the red used throughout the site. Opacity was set so that the photo underneath is still visible.
 
 ### About:
@@ -104,8 +104,8 @@ This section of the site is split into three.
 
 * The user can use the search box to look up places in Malta. It autocompletes the search when the user types.
 * When a user selects a place that was searched the map shows them a marker on that place with it's name and address.
-* The map shows the Matltese archipelago to the user.
-* The map can be made fullscreen and the user can zoom in and out.
+* The map shows the Maltese archipelago to the user.
+* The map can be made full screen and the user can zoom in and out.
 * There are set markers on the map that relate to the places mentioned in the sections below it.
 
 #### Popular Areas:
@@ -114,7 +114,7 @@ This section of the site is split into three.
 * Images of each can be seen.
 * Clicking on these images brings up a gallery view and the user can use buttons to go through them.
 * Clicking the "find out more" button shows the user information about the area.
-* The button increases in size when the hovered over by a mouse on deskptop.
+* The button increases in size when the hovered over by a mouse on desktop.
 
 #### Popular Attractions: 
 
@@ -122,15 +122,15 @@ This section of the site is split into three.
 * Images of each can be seen.
 * Clicking on these images brings up a gallery view and the user can use buttons to go through them.
 * Clicking the "find out more" button shows the user information about the attraction.
-* The button increases in size when the hovered over by a mouse on deskptop.
+* The button increases in size when the hovered over by a mouse on desktop.
 
 ### Contact:
 
 * A form is given for the user to send a message.
-* Somes text gives the user reasons why they might want to reach out.
+* Some text gives the user reasons why they might want to reach out.
 * Name, email, phone and message are required inputs.
 * Date of arrival and departure are optional and can be used by the user to ask specific questions relating to when they will be there.
-* The "send message" button increases in size when the hovered over by a mouse on deskptop.
+* The "send message" button increases in size when the hovered over by a mouse on desktop.
 * When a message is sent an alert shows telling the user their message has been sent and they will hear soon.
 * Clicking "OK" on the alert refreshes the page.
 
@@ -187,15 +187,15 @@ However during the development of the site I realised there was an issue with th
 
 I read into this and found that Bootstrap 5 does not support Jquery. More on this [here](https://b862579c-57d6-4a95-a6a3-fa6a3cebd8b4.ws-eu03.gitpod.io/#/workspace/Discover-Malta). 
 
-I was unsure of how to proceed and changed my Bootstrap Javascript to version 4.6. This resulted in the burger menu working as intented.
+I was unsure of how to proceed and changed my Bootstrap Javascript to version 4.6. This resulted in the burger menu working as intended.
 
-I then changed the Bootstrap CSS file to version 4.6 also. 
+I then changed the Bootstrap CSS file to version 4.6 as well. 
 
 Changing versions caused some issues with the site and the following had to be done:
 
 * I fixed the grid layout of "Ideas For Your Trip" as I had not used containers at the time and this caused the grid to not work once the Bootstrap version was changed.
 * The padding on col classes was different and caused the cards in "Ideas For Your Trip" to not fit as nicely as before. To fix this I rewrote the code for the section and added spacing as necessary after.
-* Spacing classes such as pt-2 etc were slightly different so I updated these also.
+* Spacing classes such as pt-2 etc were slightly different so I updated these as well.
 * I had followed a [tutorial](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp) from W3Schools to implement a scroll to top button which did not work after changing the Bootstrap version. I found another [code snippet](https://codepen.io/michalwyrwa/pen/GBaPPj) for this instead.
 * H3 used in the cards under "Ideas For Your Trip" were changed to H4 as the font-size of these was too big.
 
@@ -207,13 +207,13 @@ All testing information can be located in the [TESTING.md](https://github.com/Ho
 
 The website was developed using Gitpod which is a cloud based IDE.
 
-This was committed to git and pushed to GitHub using Gitpod's built in git function.
+This was committed to git and pushed to GitHub using Gitpod's built in Git function.
 
 The following steps were carried to deploy the website to [GitHub Pages](https://hollyc7.github.io/Discover-Malta/) from the [GitHub repository](https://github.com/HollyC7/Discover-Malta).
 
 1. Open the repository in GitHub HollyC7/Discover-Malta.
 2. Select Settings from the options at the top of the page and scroll down to the GitHub pages section.
-3. From Source select the "master" branch from the dropdown list and select "save".
+3. From Source select the "master" branch from the drop down list and select "save".
 4. Once this has been selected the page is automatically refreshed and the site has been deployed.
 5. Navigate back to the GitHub Pages section to obtain the URL for the deployed site.
 
@@ -224,7 +224,7 @@ The following steps were carried to deploy the website to [GitHub Pages](https:/
 3. Copy the url: https://github.com/HollyC7/Discover-Malta.
 4. Paste the url into the url bar of a new tab.
 5. Add gitpod.io/# to the start of the url copied from GitHub.
-6. A new workspace will open
+6. A new workspace will open.
 
 ### How To Run This In A Local IDE: 
 
@@ -299,11 +299,11 @@ Forking the project allows you to make a copy of the project in your own GitHub 
 
 ### Resources:
 
-* My other project [Elite Fitness](https://github.com/HollyC7/EliteFitness) was a useful reference when beginning development of this site to see how the code should eb written as well as the README and TESTING file.
+* My other project [Elite Fitness](https://github.com/HollyC7/EliteFitness) was a useful reference when beginning development of this site to see how the code should be written as well as the README and TESTING file.
 * The Code Institute [Gitpod template](https://github.com/Code-Institute-Org/gitpod-full-template) that installs useful tools into Gitpod.
-* Stackoverflow for how to do certain aspects of the site.
+* Stack Overflow for how to do certain aspects of the site.
 * W3Schools for how to do certain aspects of the site.
-* Code Insitute course material for making the site and using Javascript and APIs.
+* Code Institute course material for making the site and using Javascript and APIs.
 * Bootstrap documentation for tips on how to use Javascript.
 * JQueryUI documentation for tips on how to use certain functions.
 * Codepen.io to see how to add a scroll to top button.
