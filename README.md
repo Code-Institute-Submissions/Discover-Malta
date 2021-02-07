@@ -23,7 +23,7 @@ I chose to create this website as I have visited Malta previously and it was a h
 
 1. As the site owner, I wanted to provide useful informaiton to site visitors to help them learn about Malta and where they could visit.
 2. As the site owner, I wanted to show images of Malta and the various places references on the site.
-3. As the site owner, I wanted to include a map for users to see hotels, restaurants and tourist attractions in the area they are looking at.
+3. As the site owner, I wanted to include a map for users to look up and see various areas and attractions.
 4. As the site owner, I wanted to user to be able to get in touch if they had questions or if they were looking for recommendations for their trip.
 
 ### Wireframes:
