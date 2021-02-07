@@ -19,4 +19,26 @@
         * A label on line 455 did not have the correct value for the "for" attribute. This was changed.
         * A label on line 459 did not have the correct value for the "for" attribute. This was changed.
     * No further errors present after running again.
-    
+
+### Javascript
+
+* Tested using [JSHint](https://jshint.com/).
+
+#### Script.js 
+
+* No errors.
+* Warnings for unnecessary semicolons on lines 9 and 15. These have been removed.
+
+#### Maps.js
+
+* No errors.
+* Warnings: 
+    * Line 38 unnecessary semicolon. This has been removed. 
+    * Line 154 was missing a semicolon. This has been added.
+    * Line 163 unnecessary semicolon. This has been removed. 
+* Undefined & unused variables:
+    * google 
+    * MarkerClusterer
+    * markerCluster  
+    * initMap 
+        * No changes made to these as these have been taken directly from the documentation for the Google Maps Javascript API and Google Places API.
