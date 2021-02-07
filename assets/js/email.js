@@ -14,7 +14,7 @@ function sendMail(contactForm) {
         function(response) {
             alert("Your email has been sent, we will be in touch as soon as possible");
             // Page reloads after user clicks "ok" on alert box
-            // Found on Stack OVerflow, linked in README
+            // Found on Stack Overflow, linked in README
             window.location.reload(true);
         },
         // Alert sent if email failed
