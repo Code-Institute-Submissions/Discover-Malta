@@ -249,13 +249,15 @@ Forking the project allows you to make a copy of the project in your own GitHub 
 
 * [Hover:CSS](https://ianlunn.github.io/Hover/) classes have been added to my own CSS file for additional styling.
 * [Bootstrap](https://getbootstrap.com/) classes have been used throughout this site. 
-* [Google Places API](https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-multiple-countries) "Places Autocomplete Restricted To Multiple Countries" example was used as a template for my search.js file. I changed some of the code to suit what I needed.
+* [Google Places API](https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-multiple-countries) "Places Autocomplete Restricted To Multiple Countries" example was used as a template for my maps.js file. I changed some of the code to suit what I needed.
+* [Google Maps Javascript API](https://developers.google.com/maps/documentation/javascript/marker-clustering) the example for "Marker Clustering" was used in my maps.js file. The Code Insitute course material on adding map markers was also followed.
 * [Stack Overflow](https://stackoverflow.com/questions/40047210/integrate-google-maps-markerclusterer-with-infowindow) followed this to add info window when set markers in markerclusterer are clicked.
 * [Codepen.io](https://codepen.io/michalwyrwa/pen/GBaPPj) for tutorial on adding a scroll to top button.
 * [Medium.com](https://medium.com/@pacific880/learn-to-make-one-page-scroll-navigation-b97ab42ef6fa for tutorial on adding smooth scrolling to anchor points on site with fixed navbar.
 * [JqueryUI](https://jqueryui.com/datepicker/#default) for the datepicker used in contact form.
 * [Stack Overflow](https://stackoverflow.com/questions/21247674/refresh-the-page-when-the-ok-alert-button-is-clicked) for tutorial on getting the page to refresh once the user selects "ok" on alert box after form is submitted.
 * [Stack Overflow](https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click) for tutorial on collapsing the burger menu when a link is clicked.
+* [EmailJS](https://www.emailjs.com/docs/) example as well as the code along in the Code Insititue course material was followed to add this to the site.
 
 ### Content:
 
@@ -304,6 +306,8 @@ Forking the project allows you to make a copy of the project in your own GitHub 
 * JQueryUI documentation for tips on how to use certain functions.
 * Codepen.io to see how to add a scroll to top button.
 * Medium for an article on adding smooth scrolling to anchor points.
+* [Google Maps Javacsript API](https://developers.google.com/maps/documentation/javascript/overview) and [Google Places API](https://developers.google.com/places/web-service/overview) documentation for adding the APIs to the site.
+* [EmailJS](https://www.emailjs.com/docs/) documentation for adding this to the site.
 
 # Acknowledgements
 
