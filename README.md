@@ -2,7 +2,9 @@
 
 This is a website created to help users who are interested in visitng Malta on holiday find out about the island, popular places there and attractions to see.
 
-It provides information on cities, attractions and culture and also includes a number of images of the varipus places mentioned.
+It provides information on areas and attractions and also includes a number of images of the varipus places mentioned.
+
+It also includes a map with pre determined markers they can view as well as an autocomplete search box they can use to search places.
 
 I chose to create this website as I have visited Malta previously and it was a holiday I really enhjoyed and I plan to visit there again in the future.
 
@@ -96,24 +98,48 @@ This is a fully responsive website that allows the user to use any device to vie
 
 This section of the site is split into three.
 
-#### Map And Search Box
+#### Map And Search Box:
 
 * The user can use the search box to look up places in Malta. It autocompletes the search when the user types.
-* When a user selects a place that was searched the map shows them a marker ont hat place with it's name and address.
+* When a user selects a place that was searched the map shows them a marker on that place with it's name and address.
 * The map shows the Matltese archipelago to the user.
 * The map can be made fullscreen and the user can zoom in and out.
 * There are set markers on the map that relate to the places mentioned in the sections below it.
 
+#### Popular Areas:
+
+* This section shows six popular areas to the user.
+* Images of each can be seen.
+* Clicking on these images brings up a gallery view and the user can use buttons to go through them.
+* Clicking the "find out more" button shows the user information about the area.
+* The button increases in size when the hovered over by a mouse on deskptop.
+
+#### Popular Attractions: 
+
+* This section shows 6 popular attractions to the user.
+* Images of each can be seen.
+* Clicking on these images brings up a gallery view and the user can use buttons to go through them.
+* Clicking the "find out more" button shows the user information about the attraction.
+* The button increases in size when the hovered over by a mouse on deskptop.
 
 ### Contact:
 
+* A form is given for the user to send a message.
+* Somes text gives the user reasons why they might want to reach out.
+* Name, email, phone and message are required inputs.
+* Date of arrival and departure are optional and can be used by the user to ask specific questions relating to when they will be there.
+* The "send message" button increases in size when the hovered over by a mouse on deskptop.
+* When a message is sent an alert shows telling the user their message has been sent and they will hear soon.
+* Clicking "OK" on the alert refreshes the page.
+
 ### Future Features:
 
-In the furture I would like to add the following features to the site:
+In the future I would like to add the following features to the site:
 
 * An option for the user to look up & book flights and hotels.
 * An option for the user to sign up to a newsletter/blog where they could receive emails about what is going on in Malta.
-* An events calendar section for a user to see when events such as cocnerts, festivals etc are taking place.
+* An events calendar section for a user to see when events such as concerts, festivals etc are taking place.
+* More options for using the map to use a button to select options like hotels, parks etc and these would then be marked on the map.
 
 # Technologies Used 
 
