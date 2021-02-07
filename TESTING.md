@@ -89,3 +89,101 @@ If they want to find out more they can press the "find out more" button and a de
 The user will know if their message is sent correctly as an alert will appear. An alert will also appear if they nessage does nto send and advsies them to try again. When the user clicks "OK" on these alerts the page is refreshed.
 * The user can also view various social media sites by selecting the icons in the footer which will bring them to the site in a new browser window.
 * When the user scrolls down or moves to a section that is not "Home" a button appears on the bottom right which allows them to return to the top.
+
+# Manual Testing Of Elements On The Site
+
+### Responsiveness 
+
+To check that the site was responsive and works correctly I used Chrome Developer Tools to simulate multiple devices and breakpoints:
+
+#### Devices:
+
+* Moto G4
+* Galaxy S5
+* iPhone 5
+* iPad
+* iPad Pro
+* Surface Duo
+
+#### Browsers:
+
+* Google Chrome
+* Microsoft Edge
+* Mozilla Firefox
+
+I also used my own mobile device to check the site and viewed it on a 27" and 24" monitor.
+
+#### Issues Found:
+
+* While loading the background image from "Home" and the map may not be instantly seen. This is fine once the page has loaded fully. 
+* Sometimes when opening the site in developer tools and it is set to responsive, whitespace can be seen running from top to bottom on the right hand side.
+    * Selecting the burger menu or any button on the site, making a change using developer tools or refreshing the page causes it to disappear.
+    * After checking all code nothing appears to be causing this.
+    * It does not happen when opening the site in the browser.
+    * It does not happen when viewing with a physical mobiel device.
+
+### Navigation Bar: 
+
+* Hover over site name to see it increase in size.
+* Verify site name refreshes the page.
+* Hover over navigation links to see them increase in size.
+* Change screen size to mobile and tablet under 991px width to see the menu turn into a collapsable to a burger menu.
+* Verify the navigation bar stays visible when scrolling.
+* Select navigation link and see page scroll to that section, with the navigation bar not covering any part of the section selected.
+* Verify burger menu collapses after selecting a link.
+
+### Scroll To Top Button:
+
+* Verify the button shows when scrolling down 20px from top.
+* Verify button disappears when at the top.
+* Select the button and verify it works to scroll back to the top.
+
+### Home:
+
+* Verify the background image scales on different breakpoints.
+* Verify the callout fits correctly and is legible on different breakpoints.
+
+### About 
+
+* Verify the content can be read easily on different breakpoints.
+
+### Recommendations:
+
+#### Map And Search Box:
+
+* Verify written description can be read easily on different breakpoints.
+* Verify the map and search box fit diffrent screensizes well.
+* Type into search box to see autocomplete suggestions.
+* Select option from search suggestions and see marker added to map.
+* Verify search is restricted to Malta by searching somewhere else. See that no option comes up and on hitting "enter" an alert appears.
+* Use the map controls to look around the map.
+* Verify the clusters have individual markers by zooming in closer.
+* Verify the set markers contain content by selecting them.
+
+#### Popular Areas & Popular Attractions:
+
+* Select an image in either to see a gallery view.
+* Hover over button to see it increase in size on desktop.
+* Select a button under a place to show more information. 
+* Select the button again to hide the information.
+* Verify both sections and cards they contain show appropriately on different breakpoints.
+* Verify written descriptions can be read easily on different breakpoints.
+
+### Contact 
+
+* Verify written description can be read easily on different breakpoints.
+* Verify the form shows appropriately of different breakpoints.
+* Verify the form must contain first name, last name, email, phone and message in order to be submitted.
+* Hover over the "send message" button to see it increase in size on desktop.
+* Verify the form submits buy filling out the inputs and pressing the button.
+* Verify if the form was submitted successfully or by reading the alert.
+* Select "OK" on the alert to refresh the page.
+* Verify the submitted form generates an email:
+
+![Eamil JS email in inbox](https://github.com/HollyC7/Discover-Malta/blob/master/assets/images/emailjs.JPG)
+
+### Footer
+
+* Hover over icons to see them increase in size and change colour on desktop. 
+* Select each icon to see it opens the correct site and in a new browser window.
+* Verify icons used for social media links are hidden on screen readers using aria-hidden="true" and instead show text using a span.
