@@ -42,3 +42,11 @@
     * markerCluster  
     * initMap 
         * No changes made to these as these have been taken directly from the documentation for the Google Maps Javascript API and Google Places API.
+
+#### EmailJS 
+
+* No errors.
+* Undefined & unused variables:
+    * emailjs 
+    * sendMail 
+        * No changes made to these as these have been taken directly from the documentation for EmailJS.
