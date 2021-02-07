@@ -2,6 +2,8 @@
 
 This is a website created to help users who are interested in visitng Malta on holiday find out about the island, popular places there and attractions to see.
 
+The archipelago and the other two islands and some attractions there are also included briefly in the site as tourists usually go to Malta on holiday and visit the other two islands.
+
 It provides information on areas and attractions and also includes a number of images of the varipus places mentioned.
 
 It also includes a map with pre determined markers they can view as well as an autocomplete search box they can use to search places.
