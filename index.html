@@ -114,13 +114,13 @@
                 We have included some popular places and attractions on the map with more information below. You can
                 also use the search box to help.
             </p>
-            <div id="pac-container pb-3" class="text-center">
+            <div id="pac-container" class="text-center">
                 <input id="pac-input" type="text" placeholder="Search for a place" class="mb-3" />
             </div>
             <div class="map-container ml-auto mr-auto">
                 <div id="map"></div>
                 <div id="infowindow-content">
-                    <img src=" " width="16" height="16" id="place-icon" />
+                    <img src="#" width="16" height="16" id="place-icon" alt="Malta map"/>
                     <span id="place-name" class="title"></span><br />
                     <span id="place-address"></span>
                 </div>
@@ -452,11 +452,11 @@
         <form class="shadow p-3 mb-3 bg-white rounded text-center pb-4" onsubmit="return sendMail(this);">
             <div class="row">
                 <div class=" col-md-6 col-sm-12 form-group mb-3">
-                    <label for="name" class="header-minor form-label mb-2">First Name</label>
+                    <label for="firstname" class="header-minor form-label mb-2">First Name</label>
                     <input name="firstname" type="text" id="firstname" class="form-control form-input" required>
                 </div>
                 <div class=" col-md-6 col-sm-12 form-group mb-3">
-                    <label for="name" class="header-minor form-label mb-2">Last Name</label>
+                    <label for="lastname" class="header-minor form-label mb-2">Last Name</label>
                     <input name="lastname" type="text" id="lastname" class="form-control form-input" required>
                 </div>
                 <div class="col-12 col-lg-6 form-group mb-3">
