@@ -35,7 +35,7 @@ function initMap() {
         if (!place.geometry) {
             window.alert("No details available for input: '" + place.name + "'");
             return;
-        };
+        }
 
         //if place searched exists show on the map 
         if (place.geometry.viewport) {
@@ -151,7 +151,7 @@ function initMap() {
         google.maps.event.addListener(marker, 'click', function () {
             infoWin.setContent(location.info);
             infoWin.open(map, marker);
-        })
+        });
         return marker;
     });
 
@@ -160,4 +160,4 @@ function initMap() {
         imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
     });
 
-};
+}
