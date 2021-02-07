@@ -6,13 +6,13 @@ document.addEventListener('DOMContentLoaded', hideContent());
 
 function hideContent() {
     $('.card-body').children('p').hide();
-};
+}
 
 function toggleContent() {
     $(".card-button").click(function () {
         $(this).siblings('p').slideToggle('slow');
     });
-};
+}
 
 // Adding a button that allows user to scroll to top
 // Found on Codepen.io, linked in README file
