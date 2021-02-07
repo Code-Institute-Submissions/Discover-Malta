@@ -51,7 +51,14 @@ I wanted the colour of the Maltese flag to feature frequently across the site. I
 
 ### Font: 
 
+* "Dancing Script" was used for all headers as well as the name of the site and the navigation bar links. I felt the style of this font suited the look of the site.
+* "Roboto" was used for all other text on the site as I felt it was easy to read and complimented the font used for headings.
+
 # Features
+
+This is a fully responsive website that allows the user to use any device to view it and find out about places and things to see in Malta.
+
+![Image of site on multiple devices](https://github.com/HollyC7/Discover-Malta/blob/master/assets/images/discover-malta-responsive-design.JPG)
 
 ### Navigation Bar:
 
@@ -82,11 +89,26 @@ In the furture I would liek toa dd the following features to the site:
 * [Google Fonts](https://fonts.google.com/) used to find font I used in the site.
 * [Resizeimage.net](https://resizeimage.net/) used to crop and resize images used. 
 * [Font Awesome](https://fontawesome.com/) for various icons.
-* [Google Places API](https://developers.google.com/places/web-service/overview) and [Google Maps Javascript API](https://developers.google.com/maps/documentation/javascript/overview) for adding the map and seacrh box to my site.
+* [Google Developers Console](https://console.developers.google.com/) to get the APIs used on the site.
 * [Latlong.net](https://www.latlong.net/) to find the latitude and longitude for Malta and the map markers.
 * [Favicon.io](https://favicon.io/favicon-generator/) to create the image used for the favicon.
 * [Favicon-generator.com](https://www.favicon-generator.org/) to turn the image into a favicon.
 * [Fancybox](https://fancyapps.com/fancybox/3/) to create an image gallery.
+* [Am I Responsive?](http://ami.responsivedesign.is/) to show the site on multiple devices.
+
+### APIs
+
+This site uses two APIs from the Google Devlopers Console:
+
+1. [Google Places API](https://developers.google.com/places/web-service/overview):
+    * Used to implement a search box where the user can search for places in Malta. 
+    * The search box has an auto complete feature and is also restricted so the user will only be able to search in Malta. 
+    * When a place is searched and selected some information is shown on the map marker: name and address.
+
+2. [Google Maps Javascript API](https://developers.google.com/maps/documentation/javascript/overview):
+    * Used to create the map.
+    * Map shows the user the Maltese archipelago based on coordinates entered.
+    * Some markers are pre-set for the user to see and related to areas and attractions mentioned on the site.
 
 ### Bootstrap Version Issue
 
@@ -146,13 +168,6 @@ Changing versions caused some issues with the site and the following had to be d
 * [Wikipedia](https://en.wikipedia.org/wiki/%C4%A6a%C4%A1ar_Qim) for written content for Ħaġar Qim.
 * [Visitmalta.com](https://www.visitmalta.com/en/about-malta) for written content in the "About Malta" section.
 
-to be removed ----
-* [Wikipedia](https://en.wikipedia.org/wiki/Palace_Armoury) for written content for Palace Armoury.
-* [Wikipedia](https://en.wikipedia.org/wiki/Saluting_Battery_(Valletta) for written content for Saluting Battery.
-* [Wikipedia](https://en.wikipedia.org/wiki/Blue_Grotto_(Malta) for written content about the Blue Grotto.
-* [Nightlife-citylife.com](http://www.nightlife-cityguide.com/en/guide-nightlife/malta-nightlife-nightlife-local-clubs-st-julians-paceville/) for written content on the nightlife recommendations.
-* [Visitmalta.com](https://www.visitmalta.com/en/about-malta) for written content in the "About Malta" section.
-
 ### Media:
 
 * [Britannica.com](https://www.britannica.com/place/Valletta) for the image of Valletta.
@@ -168,15 +183,8 @@ to be removed ----
 * [Thesabaticalguide.com](https://thesabbaticalguide.com/popeye-village-malta/) for image of the Popeye Village.
 * [Britannica.com](https://www.britannica.com/topic/megalith) for the image of Ħaġar Qim.
 * Icons used on set map markers are taken from the image tag found when using the autocomplete search for that place on my site.
-
-to be removed ----
-
-* [Wikipedia](https://en.wikipedia.org/wiki/Palace_Armoury#/media/File:Malta_Valletta_BW_2011-10-07_14-03-30.jpg) for the image fo the Palace Armoury.
-* [Resident Advisor](https://ra.co/clubs/70790) for the image of Sky Club.
-* [Myguidemalta.com](https://www.myguidemalta.com/nightlife/club-havana-malta) for the image of Havana Club.
-* [Cafedelmar.com](https://cafedelmar.com.mt/the-facilities/) for the image of Cafe Del Mar.
-* [Trabuxu.com.mt](http://trabuxu.com.mt/wine-bar/) for the image of Trabuxu Wine Bar.
-* [Maltainfoguide.com](https://www.maltainfoguide.com/blue-grotto-malta.html) for image of the Blue Grotto.
+* [Am I Responsive?](http://ami.responsivedesign.is/) to show the site on multiple devices.
+* [Favicon.io](https://favicon.io/favicon-generator/) was used to create the image used for the favicon by adding text and changing the colour and [Favicon-generator.com](https://www.favicon-generator.org/) was used to turn the image into a file to be used.
 
 ### Resources:
 
