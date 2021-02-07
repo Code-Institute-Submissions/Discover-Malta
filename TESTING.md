@@ -180,7 +180,7 @@ I also used my own mobile device to check the site and viewed it on a 27" and 24
 * Select "OK" on the alert to refresh the page.
 * Verify the submitted form generates an email:
 
-![Eamil JS email in inbox](https://github.com/HollyC7/Discover-Malta/blob/master/assets/images/emailjs.JPG)
+![EmailJS email in inbox](https://github.com/HollyC7/Discover-Malta/blob/master/assets/images/emailjs.JPG)
 
 ### Footer
 
