@@ -286,10 +286,6 @@ footer a:hover {
     font-size: 30px; 
 }
 
-.no-padding { /* using this to remove the padding set on Bootstrap 4 cols, site was built with Bootstrap 5 CSS but changed to Bootstrap 4 during the end of development */
-    padding: 0;
-}
-
 /* -- Media Queries -- */
 
 @media screen and (max-width: 1199.98px) {
