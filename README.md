@@ -62,17 +62,54 @@ This is a fully responsive website that allows the user to use any device to vie
 
 ### Navigation Bar:
 
+* The bavigation bar is always shown to the user when scrolling on all devices.
+* The name of the site as well as the navigation links inscrease in size when a mouse is hovered over on desktop.
+* The name of the site can be clicked and it will return the user to the top of the page.
+* As it is a one page site the navigation links scroll the user down or up depening on which selection is made. An offset has been included in this so the navigation bar does not cover part of the section once it is scrolled to.
+* The navigation links reference each section of the site.
+* The navigation links are shown in a burger menu on screen sizes of 991px and under.
+
 ### Footer:
+
+* The footer provides links to social media pages for the site with icons representing each site.
+* The icons change from white to red and grow in size when hovered over on desktop.
+* The icons are hidden when a screen reader is used.
+* The icons open to the relevant website in a new browser tab.
+
+### Scroll To Top Button
+
+* A small button is shown in the bottom right corner that when clicked, will scroll the site back to the top.
+* The button has an upward arrow icon to make it clear to the user what it is for.
+* The button appears once the user scrolls 20px downward.
 
 ### Home:
 
-### Locations:
+* A background image is shown to the user which takes up 100vh on all devices.
+* A small jumbotron is shown in the middle of the background image that depicts the site name and text telling the user the the site can help them find holiday ideas.
+* The background colour of the jumbotron is an opaque version of the red used throughout the site. Opacity was set so that the photo underneath is still visible.
+
+### About:
+
+* This section was included to tell the user some information about Malta and the other islands.
+
+### Recommendations:
+
+This section of the site is split into three.
+
+#### Map And Search Box
+
+* The user can use the search box to look up places in Malta. It autocompletes the search when the user types.
+* When a user selects a place that was searched the map shows them a marker ont hat place with it's name and address.
+* The map shows the Matltese archipelago to the user.
+* The map can be made fullscreen and the user can zoom in and out.
+* There are set markers on the map that relate to the places mentioned in the sections below it.
+
 
 ### Contact:
 
 ### Future Features:
 
-In the furture I would liek toa dd the following features to the site:
+In the furture I would like to add the following features to the site:
 
 * An option for the user to look up & book flights and hotels.
 * An option for the user to sign up to a newsletter/blog where they could receive emails about what is going on in Malta.
@@ -108,7 +145,8 @@ This site uses two APIs from the Google Devlopers Console:
 2. [Google Maps Javascript API](https://developers.google.com/maps/documentation/javascript/overview):
     * Used to create the map.
     * Map shows the user the Maltese archipelago based on coordinates entered.
-    * Some markers are pre-set for the user to see and related to areas and attractions mentioned on the site.
+    * Some markers are pre-set for the user to see and related to areas and attractions mentioned on the site. 
+    Marker clusters were used so that if multiple markers are near each other they are clustered together until the user zooms in.
 
 ### Bootstrap Version Issue
 
@@ -204,6 +242,7 @@ Forking the project allows you to make a copy of the project in your own GitHub 
 
 ### Media:
 
+* [Medium.com](https://medium.com/@lscmalta/ten-reasons-to-study-in-malta-in-2018-89dfa1d3dcb1) for the hero image seen when first opening the site.
 * [Britannica.com](https://www.britannica.com/place/Valletta) for the image of Valletta.
 * [Itinari.com](https://www.itinari.com/mdina-the-silent-city-of-malta-avr7) for the image of Mdina.
 * [Tvm.com.mt](https://www.tvm.com.mt/en/wp-content/uploads/sites/2/2019/02/paceville-st-julians-aerial-malta.png) for the image of Saint Julian's.
@@ -219,10 +258,23 @@ Forking the project allows you to make a copy of the project in your own GitHub 
 * Icons used on set map markers are taken from the image tag found when using the autocomplete search for that place on my site.
 * [Am I Responsive?](http://ami.responsivedesign.is/) to show the site on multiple devices.
 * [Favicon.io](https://favicon.io/favicon-generator/) was used to create the image used for the favicon by adding text and changing the colour and [Favicon-generator.com](https://www.favicon-generator.org/) was used to turn the image into a file to be used.
-* [Font Awesome](https://fontawesome.com/) for various social media icons.
+* [Font Awesome](https://fontawesome.com/) for various icons.
 
 ### Resources:
 
+* My other project [Elite Fitness](https://github.com/HollyC7/EliteFitness) was a useful reference when beginning development of this site to see how the code should eb written as well as the README and TESTING file.
+* The Code Institute [Gitpod template](https://github.com/Code-Institute-Org/gitpod-full-template) that installs useful tools into Gitpod.
+* Stackoverflow for how to do certain aspects of the site.
+* W3Schools for how to do certain aspects of the site.
+* Code Insitute course material for making the site and using Javascript and APIs.
+* Bootstrap documentation for tips on how to use Javascript.
+* JQueryUI documentation for tips on how to use certain functions.
+* Codepen.io to see how to add a scroll to top button.
+* Medium for an article on adding smooth scrolling to anchor points.
+
 # Acknowledgements
 
+* The Code Institute slack community for advice and feedback.
+* Tutor support for their advice.
+* My mentor for their advice and feedback.
 
